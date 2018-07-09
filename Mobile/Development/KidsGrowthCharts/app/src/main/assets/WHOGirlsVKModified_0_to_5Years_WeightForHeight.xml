@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WHOGirlsVKModified_0_to_5Years_WeightForHeight>
+	<Month MonthName="45">
+		<FirstPercentile>1.9</FirstPercentile>
+		<ThirdPercentile>2.1</ThirdPercentile>
+		<FiftyathPercentile>2.5</FiftyathPercentile>
+		<NinetySeventhPercentile>3.3</NinetySeventhPercentile>
+	</Month>
+	<Month MonthName="50">
+		<FirstPercentile>2.6</FirstPercentile>
+		<ThirdPercentile>2.8</ThirdPercentile>
+		<FiftyathPercentile>3.4</FiftyathPercentile>
+		<NinetySeventhPercentile>4.5</NinetySeventhPercentile>
+	</Month>
+	<Month MonthName="55">
+		<FirstPercentile>3.5</FirstPercentile>
+		<ThirdPercentile>3.9</ThirdPercentile>
+		<FiftyathPercentile>4.5</FiftyathPercentile>
+		<NinetySeventhPercentile>6.1</NinetySeventhPercentile>
+	</Month>
+	<Month MonthName="60">
+		<FirstPercentile>4.5</FirstPercentile>
+		<ThirdPercentile>5</ThirdPercentile>
+		<FiftyathPercentile>5.9</FiftyathPercentile>
+		<NinetySeventhPercentile>7.9</NinetySeventhPercentile>
+	</Month>
+	<Month MonthName="65">
+		<FirstPercentile>5.4</FirstPercentile>
+		<ThirdPercentile>6</ThirdPercentile>
+		<FiftyathPercentile>7.1</FiftyathPercentile>
+		<NinetySeventhPercentile>9.5</NinetySeventhPercentile>
+	</Month>
+	<Month MonthName="70">
+		<FirstPercentile>6.3</FirstPercentile>
+		<ThirdPercentile>6.9</ThirdPercentile>
+		<FiftyathPercentile>8.2</FiftyathPercentile>
+		<NinetySeventhPercentile>11</NinetySeventhPercentile>
+	</Month>
+	<Month MonthName="75">
+		<FirstPercentile>7</FirstPercentile>
+		<ThirdPercentile>7.8</ThirdPercentile>
+		<FiftyathPercentile>9.1</FiftyathPercentile>
+		<NinetySeventhPercentile>12.3</NinetySeventhPercentile>
+	</Month>
+	<Month MonthName="80">
+		<FirstPercentile>7.8</FirstPercentile>
+		<ThirdPercentile>8.6</ThirdPercentile>
+		<FiftyathPercentile>10.1</FiftyathPercentile>
+		<NinetySeventhPercentile>13.5</NinetySeventhPercentile>
+	</Month>
+	<Month MonthName="85">
+		<FirstPercentile>8.6</FirstPercentile>
+		<ThirdPercentile>9.5</ThirdPercentile>
+		<FiftyathPercentile>11.2</FiftyathPercentile>
+		<NinetySeventhPercentile>15</NinetySeventhPercentile>
+	</Month>
+	<Month MonthName="90">
+		<FirstPercentile>9.6</FirstPercentile>
+		<ThirdPercentile>10.6</ThirdPercentile>
+		<FiftyathPercentile>12.5</FiftyathPercentile>
+		<NinetySeventhPercentile>16.7</NinetySeventhPercentile>
+	</Month>
+	<Month MonthName="95">
+		<FirstPercentile>10.5</FirstPercentile>
+		<ThirdPercentile>11.6</ThirdPercentile>
+		<FiftyathPercentile>13.7</FiftyathPercentile>
+		<NinetySeventhPercentile>18.4</NinetySeventhPercentile>
+	</Month>
+	<Month MonthName="100">
+		<FirstPercentile>11.5</FirstPercentile>
+		<ThirdPercentile>12.7</ThirdPercentile>
+		<FiftyathPercentile>15</FiftyathPercentile>
+		<NinetySeventhPercentile>20.2</NinetySeventhPercentile>
+	</Month>
+	<Month MonthName="105">
+		<FirstPercentile>12.6</FirstPercentile>
+		<ThirdPercentile>14</ThirdPercentile>
+		<FiftyathPercentile>16.5</FiftyathPercentile>
+		<NinetySeventhPercentile>22.4</NinetySeventhPercentile>
+	</Month>
+	<Month MonthName="110">
+		<FirstPercentile>13.9</FirstPercentile>
+		<ThirdPercentile>15.4</ThirdPercentile>
+		<FiftyathPercentile>18.3</FiftyathPercentile>
+		<NinetySeventhPercentile>24.9</NinetySeventhPercentile>
+	</Month>
+</WHOGirlsVKModified_0_to_5Years_WeightForHeight>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="05dp"
+    android:paddingBottom="10dp"
+    tools:context="com.goalsr.kidsgrowth.kidsgrowthcharts.ui.charts.ChartLayout"
+    android:background="@color/skyblue"
+    android:id="@+id/chartRelativeLayout"
+    >
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/scrollView5" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+           <LinearLayout
+               android:orientation="vertical"
+               android:gravity="center|end"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content">
+
+               <TableRow
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent">
+
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:gravity="center"
+                       android:textSize="13sp"
+                       android:text="WHO 2006 &amp; IAP 2015 Combined Height &amp; Weight Charts"
+                       android:id="@+id/textViewTitle" />
+               </TableRow>
+
+
+
+              <!-- <TableRow
+                   android:layout_weight="1"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content">
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="DOB:   "
+                       android:layout_weight="1"
+                       android:id="@+id/textView10" />
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="___________"
+                       android:id="@+id/textDob"
+                       android:layout_weight="1" />
+
+               </TableRow>
+  -->
+           </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:id="@+id/chart"
+                android:layout_height="450dp">
+
+                <com.github.mikephil.charting.charts.LineChart
+                android:id="@+id/kchart1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_column="1"
+                android:layout_row="1"
+                android:layout_alignLeft="@+id/textView4"
+                android:layout_below="@+id/textView4"
+                android:layout_centerHorizontal="true" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="CREDIT TEXT "
+                    android:layout_weight="1"
+                    android:textSize="12sp"
+                    android:gravity="center"
+                    android:id="@+id/creditText" />
+
+                <!-- <TextView
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="DOB:________"
+                     android:gravity="end"
+                     android:id="@+id/textDob"
+                     android:layout_weight="1"
+                      />-->
+            </TableRow>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

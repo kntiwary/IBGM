@@ -1,0 +1,1416 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WHOBoysIAP_5_to_18Years_Height>
+	<Year YearName="5">
+		<ThirdPercentile>99.02386</ThirdPercentile>
+		<TenthPercentile>102.2602</TenthPercentile>
+		<TwentyFifthPercentile>105.5609</TwentyFifthPercentile>
+		<FiftyathPercentile>108.9265</FiftyathPercentile>
+		<SeventyFifthPercentile>112.3576</SeventyFifthPercentile>
+		<NinetyathPercentile>115.8544</NinetyathPercentile>
+		<NinetySeventhPercentile>119.4176</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="5.083">
+		<ThirdPercentile>99.45733</ThirdPercentile>
+		<TenthPercentile>102.7131</TenthPercentile>
+		<TwentyFifthPercentile>106.0334</TwentyFifthPercentile>
+		<FiftyathPercentile>109.4187</FiftyathPercentile>
+		<SeventyFifthPercentile>112.8694</SeventyFifthPercentile>
+		<NinetyathPercentile>116.386</NinetyathPercentile>
+		<NinetySeventhPercentile>119.9689</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="5.167">
+		<ThirdPercentile>99.89067</ThirdPercentile>
+		<TenthPercentile>103.166</TenthPercentile>
+		<TwentyFifthPercentile>106.5059</TwentyFifthPercentile>
+		<FiftyathPercentile>109.9109</FiftyathPercentile>
+		<SeventyFifthPercentile>113.3812</SeventyFifthPercentile>
+		<NinetyathPercentile>116.9176</NinetyathPercentile>
+		<NinetySeventhPercentile>120.5202</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="5.25">
+		<ThirdPercentile>100.3239</ThirdPercentile>
+		<TenthPercentile>103.6188</TenthPercentile>
+		<TwentyFifthPercentile>106.9784</TwentyFifthPercentile>
+		<FiftyathPercentile>110.403</FiftyathPercentile>
+		<SeventyFifthPercentile>113.8932</SeventyFifthPercentile>
+		<NinetyathPercentile>117.4493</NinetyathPercentile>
+		<NinetySeventhPercentile>121.0717</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="5.333">
+		<ThirdPercentile>100.757</ThirdPercentile>
+		<TenthPercentile>104.0715</TenthPercentile>
+		<TwentyFifthPercentile>107.4508</TwentyFifthPercentile>
+		<FiftyathPercentile>110.8952</FiftyathPercentile>
+		<SeventyFifthPercentile>114.4051</SeventyFifthPercentile>
+		<NinetyathPercentile>117.981</NinetyathPercentile>
+		<NinetySeventhPercentile>121.6233</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="5.417">
+		<ThirdPercentile>101.1899</ThirdPercentile>
+		<TenthPercentile>104.5241</TenthPercentile>
+		<TwentyFifthPercentile>107.9231</TwentyFifthPercentile>
+		<FiftyathPercentile>111.3873</FiftyathPercentile>
+		<SeventyFifthPercentile>114.9171</SeventyFifthPercentile>
+		<NinetyathPercentile>118.5129</NinetyathPercentile>
+		<NinetySeventhPercentile>122.175</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="5.5">
+		<ThirdPercentile>101.6226</ThirdPercentile>
+		<TenthPercentile>104.9766</TenthPercentile>
+		<TwentyFifthPercentile>108.3954</TwentyFifthPercentile>
+		<FiftyathPercentile>111.8795</FiftyathPercentile>
+		<SeventyFifthPercentile>115.4291</SeventyFifthPercentile>
+		<NinetyathPercentile>119.0447</NinetyathPercentile>
+		<NinetySeventhPercentile>122.7267</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="5.583">
+		<ThirdPercentile>102.0551</ThirdPercentile>
+		<TenthPercentile>105.4289</TenthPercentile>
+		<TwentyFifthPercentile>108.8676</TwentyFifthPercentile>
+		<FiftyathPercentile>112.3715</FiftyathPercentile>
+		<SeventyFifthPercentile>115.9411</SeventyFifthPercentile>
+		<NinetyathPercentile>119.5766</NinetyathPercentile>
+		<NinetySeventhPercentile>123.2786</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="5.667">
+		<ThirdPercentile>102.4874</ThirdPercentile>
+		<TenthPercentile>105.881</TenthPercentile>
+		<TwentyFifthPercentile>109.3396</TwentyFifthPercentile>
+		<FiftyathPercentile>112.8634</FiftyathPercentile>
+		<SeventyFifthPercentile>116.4529</SeventyFifthPercentile>
+		<NinetyathPercentile>120.1085</NinetyathPercentile>
+		<NinetySeventhPercentile>123.8304</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="5.75">
+		<ThirdPercentile>102.9193</ThirdPercentile>
+		<TenthPercentile>106.3328</TenthPercentile>
+		<TwentyFifthPercentile>109.8113</TwentyFifthPercentile>
+		<FiftyathPercentile>113.3552</FiftyathPercentile>
+		<SeventyFifthPercentile>116.9647</SeventyFifthPercentile>
+		<NinetyathPercentile>120.6403</NinetyathPercentile>
+		<NinetySeventhPercentile>124.3821</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="5.833">
+		<ThirdPercentile>103.3509</ThirdPercentile>
+		<TenthPercentile>106.7843</TenthPercentile>
+		<TwentyFifthPercentile>110.2828</TwentyFifthPercentile>
+		<FiftyathPercentile>113.8467</FiftyathPercentile>
+		<SeventyFifthPercentile>117.4763</SeventyFifthPercentile>
+		<NinetyathPercentile>121.1719</NinetyathPercentile>
+		<NinetySeventhPercentile>124.9338</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="5.917">
+		<ThirdPercentile>103.782</ThirdPercentile>
+		<TenthPercentile>107.2354</TenthPercentile>
+		<TwentyFifthPercentile>110.7539</TwentyFifthPercentile>
+		<FiftyathPercentile>114.3379</FiftyathPercentile>
+		<SeventyFifthPercentile>117.9875</SeventyFifthPercentile>
+		<NinetyathPercentile>121.7032</NinetyathPercentile>
+		<NinetySeventhPercentile>125.4852</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="6">
+		<ThirdPercentile>104.2126</ThirdPercentile>
+		<TenthPercentile>107.686</TenthPercentile>
+		<TwentyFifthPercentile>111.2246</TwentyFifthPercentile>
+		<FiftyathPercentile>114.8287</FiftyathPercentile>
+		<SeventyFifthPercentile>118.4985</SeventyFifthPercentile>
+		<NinetyathPercentile>122.2343</NinetyathPercentile>
+		<NinetySeventhPercentile>126.0364</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="6.083">
+		<ThirdPercentile>104.6426</ThirdPercentile>
+		<TenthPercentile>108.1362</TenthPercentile>
+		<TwentyFifthPercentile>111.6949</TwentyFifthPercentile>
+		<FiftyathPercentile>115.3191</FiftyathPercentile>
+		<SeventyFifthPercentile>119.009</SeventyFifthPercentile>
+		<NinetyathPercentile>122.765</NinetyathPercentile>
+		<NinetySeventhPercentile>126.5873</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="6.167">
+		<ThirdPercentile>105.0721</ThirdPercentile>
+		<TenthPercentile>108.5857</TenthPercentile>
+		<TwentyFifthPercentile>112.1646</TwentyFifthPercentile>
+		<FiftyathPercentile>115.809</FiftyathPercentile>
+		<SeventyFifthPercentile>119.5191</SeventyFifthPercentile>
+		<NinetyathPercentile>123.2953</NinetyathPercentile>
+		<NinetySeventhPercentile>127.1379</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="6.25">
+		<ThirdPercentile>105.501</ThirdPercentile>
+		<TenthPercentile>109.0347</TenthPercentile>
+		<TwentyFifthPercentile>112.6338</TwentyFifthPercentile>
+		<FiftyathPercentile>116.2984</FiftyathPercentile>
+		<SeventyFifthPercentile>120.0288</SeventyFifthPercentile>
+		<NinetyathPercentile>123.8253</NinetyathPercentile>
+		<NinetySeventhPercentile>127.6881</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="6.333">
+		<ThirdPercentile>105.9292</ThirdPercentile>
+		<TenthPercentile>109.4831</TenthPercentile>
+		<TwentyFifthPercentile>113.1024</TwentyFifthPercentile>
+		<FiftyathPercentile>116.7873</FiftyathPercentile>
+		<SeventyFifthPercentile>120.538</SeventyFifthPercentile>
+		<NinetyathPercentile>124.3548</NinetyathPercentile>
+		<NinetySeventhPercentile>128.2379</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="6.417">
+		<ThirdPercentile>106.3567</ThirdPercentile>
+		<TenthPercentile>109.9308</TenthPercentile>
+		<TwentyFifthPercentile>113.5704</TwentyFifthPercentile>
+		<FiftyathPercentile>117.2756</FiftyathPercentile>
+		<SeventyFifthPercentile>121.0466</SeventyFifthPercentile>
+		<NinetyathPercentile>124.8838</NinetyathPercentile>
+		<NinetySeventhPercentile>128.7873</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="6.5">
+		<ThirdPercentile>106.7835</ThirdPercentile>
+		<TenthPercentile>110.3778</TenthPercentile>
+		<TwentyFifthPercentile>114.0377</TwentyFifthPercentile>
+		<FiftyathPercentile>117.7632</FiftyathPercentile>
+		<SeventyFifthPercentile>121.5547</SeventyFifthPercentile>
+		<NinetyathPercentile>125.4123</NinetyathPercentile>
+		<NinetySeventhPercentile>129.3363</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="6.583">
+		<ThirdPercentile>107.2095</ThirdPercentile>
+		<TenthPercentile>110.8241</TenthPercentile>
+		<TwentyFifthPercentile>114.5042</TwentyFifthPercentile>
+		<FiftyathPercentile>118.2501</FiftyathPercentile>
+		<SeventyFifthPercentile>122.0621</SeventyFifthPercentile>
+		<NinetyathPercentile>125.9402</NinetyathPercentile>
+		<NinetySeventhPercentile>129.8847</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="6.667">
+		<ThirdPercentile>107.6347</ThirdPercentile>
+		<TenthPercentile>111.2695</TenthPercentile>
+		<TwentyFifthPercentile>114.97</TwentyFifthPercentile>
+		<FiftyathPercentile>118.7364</FiftyathPercentile>
+		<SeventyFifthPercentile>122.5688</SeventyFifthPercentile>
+		<NinetyathPercentile>126.4675</NinetyathPercentile>
+		<NinetySeventhPercentile>130.4326</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="6.75">
+		<ThirdPercentile>108.0591</ThirdPercentile>
+		<TenthPercentile>111.7141</TenthPercentile>
+		<TwentyFifthPercentile>115.4349</TwentyFifthPercentile>
+		<FiftyathPercentile>119.2218</FiftyathPercentile>
+		<SeventyFifthPercentile>123.0748</SeventyFifthPercentile>
+		<NinetyathPercentile>126.9941</NinetyathPercentile>
+		<NinetySeventhPercentile>130.9799</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="6.833">
+		<ThirdPercentile>108.4825</ThirdPercentile>
+		<TenthPercentile>112.1578</TenthPercentile>
+		<TwentyFifthPercentile>115.899</TwentyFifthPercentile>
+		<FiftyathPercentile>119.7064</FiftyathPercentile>
+		<SeventyFifthPercentile>123.58</SeventyFifthPercentile>
+		<NinetyathPercentile>127.52</NinetyathPercentile>
+		<NinetySeventhPercentile>131.5266</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="6.917">
+		<ThirdPercentile>108.9051</ThirdPercentile>
+		<TenthPercentile>112.6006</TenthPercentile>
+		<TwentyFifthPercentile>116.3623</TwentyFifthPercentile>
+		<FiftyathPercentile>120.1901</FiftyathPercentile>
+		<SeventyFifthPercentile>124.0844</SeventyFifthPercentile>
+		<NinetyathPercentile>128.0452</NinetyathPercentile>
+		<NinetySeventhPercentile>132.0726</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="7">
+		<ThirdPercentile>109.3267</ThirdPercentile>
+		<TenthPercentile>113.0425</TenthPercentile>
+		<TwentyFifthPercentile>116.8246</TwentyFifthPercentile>
+		<FiftyathPercentile>120.673</FiftyathPercentile>
+		<SeventyFifthPercentile>124.5879</SeventyFifthPercentile>
+		<NinetyathPercentile>128.5695</NinetyathPercentile>
+		<NinetySeventhPercentile>132.618</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="7.083">
+		<ThirdPercentile>109.7473</ThirdPercentile>
+		<TenthPercentile>113.4834</TenthPercentile>
+		<TwentyFifthPercentile>117.2859</TwentyFifthPercentile>
+		<FiftyathPercentile>121.1549</FiftyathPercentile>
+		<SeventyFifthPercentile>125.0906</SeventyFifthPercentile>
+		<NinetyathPercentile>129.0931</NinetyathPercentile>
+		<NinetySeventhPercentile>133.1625</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="7.167">
+		<ThirdPercentile>110.1668</ThirdPercentile>
+		<TenthPercentile>113.9232</TenthPercentile>
+		<TwentyFifthPercentile>117.7461</TwentyFifthPercentile>
+		<FiftyathPercentile>121.6358</FiftyathPercentile>
+		<SeventyFifthPercentile>125.5922</SeventyFifthPercentile>
+		<NinetyathPercentile>129.6157</NinetyathPercentile>
+		<NinetySeventhPercentile>133.7061</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="7.25">
+		<ThirdPercentile>110.5852</ThirdPercentile>
+		<TenthPercentile>114.3618</TenthPercentile>
+		<TwentyFifthPercentile>118.2052</TwentyFifthPercentile>
+		<FiftyathPercentile>122.1155</FiftyathPercentile>
+		<SeventyFifthPercentile>126.0928</SeventyFifthPercentile>
+		<NinetyathPercentile>130.1372</NinetyathPercentile>
+		<NinetySeventhPercentile>134.2488</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="7.333">
+		<ThirdPercentile>111.0023</ThirdPercentile>
+		<TenthPercentile>114.7992</TenthPercentile>
+		<TwentyFifthPercentile>118.663</TwentyFifthPercentile>
+		<FiftyathPercentile>122.594</FiftyathPercentile>
+		<SeventyFifthPercentile>126.5922</SeventyFifthPercentile>
+		<NinetyathPercentile>130.6576</NinetyathPercentile>
+		<NinetySeventhPercentile>134.7904</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="7.417">
+		<ThirdPercentile>111.418</ThirdPercentile>
+		<TenthPercentile>115.2352</TenthPercentile>
+		<TwentyFifthPercentile>119.1196</TwentyFifthPercentile>
+		<FiftyathPercentile>123.0712</FiftyathPercentile>
+		<SeventyFifthPercentile>127.0903</SeventyFifthPercentile>
+		<NinetyathPercentile>131.1768</NinetyathPercentile>
+		<NinetySeventhPercentile>135.3308</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="7.5">
+		<ThirdPercentile>111.8323</ThirdPercentile>
+		<TenthPercentile>115.6698</TenthPercentile>
+		<TwentyFifthPercentile>119.5747</TwentyFifthPercentile>
+		<FiftyathPercentile>123.5471</FiftyathPercentile>
+		<SeventyFifthPercentile>127.587</SeventyFifthPercentile>
+		<NinetyathPercentile>131.6946</NinetyathPercentile>
+		<NinetySeventhPercentile>135.8699</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="7.583">
+		<ThirdPercentile>112.2451</ThirdPercentile>
+		<TenthPercentile>116.103</TenthPercentile>
+		<TwentyFifthPercentile>120.0284</TwentyFifthPercentile>
+		<FiftyathPercentile>124.0215</FiftyathPercentile>
+		<SeventyFifthPercentile>128.0824</SeventyFifthPercentile>
+		<NinetyathPercentile>132.2111</NinetyathPercentile>
+		<NinetySeventhPercentile>136.4077</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="7.667">
+		<ThirdPercentile>112.6563</ThirdPercentile>
+		<TenthPercentile>116.5345</TenthPercentile>
+		<TwentyFifthPercentile>120.4805</TwentyFifthPercentile>
+		<FiftyathPercentile>124.4944</FiftyathPercentile>
+		<SeventyFifthPercentile>128.5762</SeventyFifthPercentile>
+		<NinetyathPercentile>132.7261</NinetyathPercentile>
+		<NinetySeventhPercentile>136.944</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="7.75">
+		<ThirdPercentile>113.0659</ThirdPercentile>
+		<TenthPercentile>116.9645</TenthPercentile>
+		<TwentyFifthPercentile>120.9311</TwentyFifthPercentile>
+		<FiftyathPercentile>124.9657</FiftyathPercentile>
+		<SeventyFifthPercentile>129.0685</SeventyFifthPercentile>
+		<NinetyathPercentile>133.2395</NinetyathPercentile>
+		<NinetySeventhPercentile>137.4787</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="7.833">
+		<ThirdPercentile>113.4738</ThirdPercentile>
+		<TenthPercentile>117.3927</TenthPercentile>
+		<TwentyFifthPercentile>121.3799</TwentyFifthPercentile>
+		<FiftyathPercentile>125.4353</FiftyathPercentile>
+		<SeventyFifthPercentile>129.5591</SeventyFifthPercentile>
+		<NinetyathPercentile>133.7512</NinetyathPercentile>
+		<NinetySeventhPercentile>138.0117</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="7.917">
+		<ThirdPercentile>113.8798</ThirdPercentile>
+		<TenthPercentile>117.8192</TenthPercentile>
+		<TwentyFifthPercentile>121.827</TwentyFifthPercentile>
+		<FiftyathPercentile>125.9032</FiftyathPercentile>
+		<SeventyFifthPercentile>130.0479</SeventyFifthPercentile>
+		<NinetyathPercentile>134.2611</NinetyathPercentile>
+		<NinetySeventhPercentile>138.5429</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="8">
+		<ThirdPercentile>114.2841</ThirdPercentile>
+		<TenthPercentile>118.2439</TenthPercentile>
+		<TwentyFifthPercentile>122.2723</TwentyFifthPercentile>
+		<FiftyathPercentile>126.3693</FiftyathPercentile>
+		<SeventyFifthPercentile>130.535</SeventyFifthPercentile>
+		<NinetyathPercentile>134.7693</NinetyathPercentile>
+		<NinetySeventhPercentile>139.0723</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="8.083">
+		<ThirdPercentile>114.6866</ThirdPercentile>
+		<TenthPercentile>118.6669</TenthPercentile>
+		<TwentyFifthPercentile>122.7159</TwentyFifthPercentile>
+		<FiftyathPercentile>126.8337</FiftyathPercentile>
+		<SeventyFifthPercentile>131.0203</SeventyFifthPercentile>
+		<NinetyathPercentile>135.2757</NinetyathPercentile>
+		<NinetySeventhPercentile>139.5999</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="8.167">
+		<ThirdPercentile>115.0873</ThirdPercentile>
+		<TenthPercentile>119.0881</TenthPercentile>
+		<TwentyFifthPercentile>123.1578</TwentyFifthPercentile>
+		<FiftyathPercentile>127.2964</FiftyathPercentile>
+		<SeventyFifthPercentile>131.5039</SeventyFifthPercentile>
+		<NinetyathPercentile>135.7803</NinetyathPercentile>
+		<NinetySeventhPercentile>140.1257</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="8.25">
+		<ThirdPercentile>115.4862</ThirdPercentile>
+		<TenthPercentile>119.5075</TenthPercentile>
+		<TwentyFifthPercentile>123.5979</TwentyFifthPercentile>
+		<FiftyathPercentile>127.7573</FiftyathPercentile>
+		<SeventyFifthPercentile>131.9857</SeventyFifthPercentile>
+		<NinetyathPercentile>136.2831</NinetyathPercentile>
+		<NinetySeventhPercentile>140.6496</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="8.333">
+		<ThirdPercentile>115.8833</ThirdPercentile>
+		<TenthPercentile>119.9252</TenthPercentile>
+		<TwentyFifthPercentile>124.0363</TwentyFifthPercentile>
+		<FiftyathPercentile>128.2165</FiftyathPercentile>
+		<SeventyFifthPercentile>132.4658</SeventyFifthPercentile>
+		<NinetyathPercentile>136.7842</NinetyathPercentile>
+		<NinetySeventhPercentile>141.1716</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="8.417">
+		<ThirdPercentile>116.2786</ThirdPercentile>
+		<TenthPercentile>120.3412</TenthPercentile>
+		<TwentyFifthPercentile>124.473</TwentyFifthPercentile>
+		<FiftyathPercentile>128.674</FiftyathPercentile>
+		<SeventyFifthPercentile>132.9442</SeventyFifthPercentile>
+		<NinetyathPercentile>137.2835</NinetyathPercentile>
+		<NinetySeventhPercentile>141.6919</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="8.5">
+		<ThirdPercentile>116.6722</ThirdPercentile>
+		<TenthPercentile>120.7555</TenthPercentile>
+		<TwentyFifthPercentile>124.9082</TwentyFifthPercentile>
+		<FiftyathPercentile>129.13</FiftyathPercentile>
+		<SeventyFifthPercentile>133.421</SeventyFifthPercentile>
+		<NinetyathPercentile>137.7811</NinetyathPercentile>
+		<NinetySeventhPercentile>142.2103</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="8.583">
+		<ThirdPercentile>117.0641</ThirdPercentile>
+		<TenthPercentile>121.1683</TenthPercentile>
+		<TwentyFifthPercentile>125.3417</TwentyFifthPercentile>
+		<FiftyathPercentile>129.5844</FiftyathPercentile>
+		<SeventyFifthPercentile>133.8962</SeventyFifthPercentile>
+		<NinetyathPercentile>138.2771</NinetyathPercentile>
+		<NinetySeventhPercentile>142.7271</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="8.667">
+		<ThirdPercentile>117.4544</ThirdPercentile>
+		<TenthPercentile>121.5795</TenthPercentile>
+		<TwentyFifthPercentile>125.7739</TwentyFifthPercentile>
+		<FiftyathPercentile>130.0374</FiftyathPercentile>
+		<SeventyFifthPercentile>134.37</SeventyFifthPercentile>
+		<NinetyathPercentile>138.7716</NinetyathPercentile>
+		<NinetySeventhPercentile>143.2422</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="8.75">
+		<ThirdPercentile>117.8433</ThirdPercentile>
+		<TenthPercentile>121.9894</TenthPercentile>
+		<TwentyFifthPercentile>126.2047</TwentyFifthPercentile>
+		<FiftyathPercentile>130.489</FiftyathPercentile>
+		<SeventyFifthPercentile>134.8424</SeventyFifthPercentile>
+		<NinetyathPercentile>139.2647</NinetyathPercentile>
+		<NinetySeventhPercentile>143.7558</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="8.833">
+		<ThirdPercentile>118.2307</ThirdPercentile>
+		<TenthPercentile>122.3979</TenthPercentile>
+		<TwentyFifthPercentile>126.6342</TwentyFifthPercentile>
+		<FiftyathPercentile>130.9395</FiftyathPercentile>
+		<SeventyFifthPercentile>135.3136</SeventyFifthPercentile>
+		<NinetyathPercentile>139.7565</NinetyathPercentile>
+		<NinetySeventhPercentile>144.268</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="8.917">
+		<ThirdPercentile>118.6169</ThirdPercentile>
+		<TenthPercentile>122.8053</TenthPercentile>
+		<TwentyFifthPercentile>127.0627</TwentyFifthPercentile>
+		<FiftyathPercentile>131.3889</FiftyathPercentile>
+		<SeventyFifthPercentile>135.7837</SeventyFifthPercentile>
+		<NinetyathPercentile>140.2471</NinetyathPercentile>
+		<NinetySeventhPercentile>144.7788</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="9">
+		<ThirdPercentile>119.0019</ThirdPercentile>
+		<TenthPercentile>123.2117</TenthPercentile>
+		<TwentyFifthPercentile>127.4902</TwentyFifthPercentile>
+		<FiftyathPercentile>131.8373</FiftyathPercentile>
+		<SeventyFifthPercentile>136.2528</SeventyFifthPercentile>
+		<NinetyathPercentile>140.7366</NinetyathPercentile>
+		<NinetySeventhPercentile>145.2885</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="9.083">
+		<ThirdPercentile>119.3859</ThirdPercentile>
+		<TenthPercentile>123.6172</TenthPercentile>
+		<TwentyFifthPercentile>127.917</TwentyFifthPercentile>
+		<FiftyathPercentile>132.285</FiftyathPercentile>
+		<SeventyFifthPercentile>136.7212</SeventyFifthPercentile>
+		<NinetyathPercentile>141.2253</NinetyathPercentile>
+		<NinetySeventhPercentile>145.7971</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="9.167">
+		<ThirdPercentile>119.769</ThirdPercentile>
+		<TenthPercentile>124.022</TenthPercentile>
+		<TwentyFifthPercentile>128.3431</TwentyFifthPercentile>
+		<FiftyathPercentile>132.7321</FiftyathPercentile>
+		<SeventyFifthPercentile>137.1889</SeventyFifthPercentile>
+		<NinetyathPercentile>141.7132</NinetyathPercentile>
+		<NinetySeventhPercentile>146.3049</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="9.25">
+		<ThirdPercentile>120.1514</ThirdPercentile>
+		<TenthPercentile>124.4262</TenthPercentile>
+		<TwentyFifthPercentile>128.7686</TwentyFifthPercentile>
+		<FiftyathPercentile>133.1787</FiftyathPercentile>
+		<SeventyFifthPercentile>137.656</SeventyFifthPercentile>
+		<NinetyathPercentile>142.2004</NinetyathPercentile>
+		<NinetySeventhPercentile>146.8118</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="9.333">
+		<ThirdPercentile>120.5331</ThirdPercentile>
+		<TenthPercentile>124.8298</TenthPercentile>
+		<TwentyFifthPercentile>129.1938</TwentyFifthPercentile>
+		<FiftyathPercentile>133.6248</FiftyathPercentile>
+		<SeventyFifthPercentile>138.1227</SeventyFifthPercentile>
+		<NinetyathPercentile>142.6872</NinetyathPercentile>
+		<NinetySeventhPercentile>147.318</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="9.417">
+		<ThirdPercentile>120.9142</ThirdPercentile>
+		<TenthPercentile>125.233</TenthPercentile>
+		<TwentyFifthPercentile>129.6186</TwentyFifthPercentile>
+		<FiftyathPercentile>134.0708</FiftyathPercentile>
+		<SeventyFifthPercentile>138.5891</SeventyFifthPercentile>
+		<NinetyathPercentile>143.1735</NinetyathPercentile>
+		<NinetySeventhPercentile>147.8236</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="9.5">
+		<ThirdPercentile>121.295</ThirdPercentile>
+		<TenthPercentile>125.6361</TenthPercentile>
+		<TwentyFifthPercentile>130.0434</TwentyFifthPercentile>
+		<FiftyathPercentile>134.5166</FiftyathPercentile>
+		<SeventyFifthPercentile>139.0554</SeventyFifthPercentile>
+		<NinetyathPercentile>143.6595</NinetyathPercentile>
+		<NinetySeventhPercentile>148.3287</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="9.583">
+		<ThirdPercentile>121.6754</ThirdPercentile>
+		<TenthPercentile>126.0389</TenthPercentile>
+		<TwentyFifthPercentile>130.468</TwentyFifthPercentile>
+		<FiftyathPercentile>134.9623</FiftyathPercentile>
+		<SeventyFifthPercentile>139.5216</SeventyFifthPercentile>
+		<NinetyathPercentile>144.1454</NinetyathPercentile>
+		<NinetySeventhPercentile>148.8335</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="9.667">
+		<ThirdPercentile>122.0557</ThirdPercentile>
+		<TenthPercentile>126.4418</TenthPercentile>
+		<TwentyFifthPercentile>130.8928</TwentyFifthPercentile>
+		<FiftyathPercentile>135.4083</FiftyathPercentile>
+		<SeventyFifthPercentile>139.9878</SeventyFifthPercentile>
+		<NinetyathPercentile>144.6312</NinetyathPercentile>
+		<NinetySeventhPercentile>149.338</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="9.75">
+		<ThirdPercentile>122.4359</ThirdPercentile>
+		<TenthPercentile>126.8449</TenthPercentile>
+		<TwentyFifthPercentile>131.3178</TwentyFifthPercentile>
+		<FiftyathPercentile>135.8544</FiftyathPercentile>
+		<SeventyFifthPercentile>140.4543</SeventyFifthPercentile>
+		<NinetyathPercentile>145.117</NinetyathPercentile>
+		<NinetySeventhPercentile>149.8423</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="9.833">
+		<ThirdPercentile>122.8163</ThirdPercentile>
+		<TenthPercentile>127.2482</TenthPercentile>
+		<TwentyFifthPercentile>131.7433</TwentyFifthPercentile>
+		<FiftyathPercentile>136.3011</FiftyathPercentile>
+		<SeventyFifthPercentile>140.9211</SeventyFifthPercentile>
+		<NinetyathPercentile>145.6031</NinetyathPercentile>
+		<NinetySeventhPercentile>150.3466</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="9.917">
+		<ThirdPercentile>123.197</ThirdPercentile>
+		<TenthPercentile>127.652</TenthPercentile>
+		<TwentyFifthPercentile>132.1693</TwentyFifthPercentile>
+		<FiftyathPercentile>136.7482</FiftyathPercentile>
+		<SeventyFifthPercentile>141.3885</SeventyFifthPercentile>
+		<NinetyathPercentile>146.0896</NinetyathPercentile>
+		<NinetySeventhPercentile>150.851</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="10">
+		<ThirdPercentile>123.5781</ThirdPercentile>
+		<TenthPercentile>128.0565</TenthPercentile>
+		<TwentyFifthPercentile>132.5961</TwentyFifthPercentile>
+		<FiftyathPercentile>137.1962</FiftyathPercentile>
+		<SeventyFifthPercentile>141.8565</SeventyFifthPercentile>
+		<NinetyathPercentile>146.5765</NinetyathPercentile>
+		<NinetySeventhPercentile>151.3558</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="10.083">
+		<ThirdPercentile>123.96</ThirdPercentile>
+		<TenthPercentile>128.4619</TenthPercentile>
+		<TwentyFifthPercentile>133.0238</TwentyFifthPercentile>
+		<FiftyathPercentile>137.6451</FiftyathPercentile>
+		<SeventyFifthPercentile>142.3254</SeventyFifthPercentile>
+		<NinetyathPercentile>147.0642</NinetyathPercentile>
+		<NinetySeventhPercentile>151.861</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="10.167">
+		<ThirdPercentile>124.3426</ThirdPercentile>
+		<TenthPercentile>128.8682</TenthPercentile>
+		<TwentyFifthPercentile>133.4525</TwentyFifthPercentile>
+		<FiftyathPercentile>138.0951</FiftyathPercentile>
+		<SeventyFifthPercentile>142.7953</SeventyFifthPercentile>
+		<NinetyathPercentile>147.5527</NinetyathPercentile>
+		<NinetySeventhPercentile>152.3667</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="10.25">
+		<ThirdPercentile>124.7263</ThirdPercentile>
+		<TenthPercentile>129.2757</TenthPercentile>
+		<TwentyFifthPercentile>133.8826</TwentyFifthPercentile>
+		<FiftyathPercentile>138.5463</FiftyathPercentile>
+		<SeventyFifthPercentile>143.2664</SeventyFifthPercentile>
+		<NinetyathPercentile>148.0422</NinetyathPercentile>
+		<NinetySeventhPercentile>152.8732</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="10.333">
+		<ThirdPercentile>125.111</ThirdPercentile>
+		<TenthPercentile>129.6845</TenthPercentile>
+		<TwentyFifthPercentile>134.314</TwentyFifthPercentile>
+		<FiftyathPercentile>138.9989</FiftyathPercentile>
+		<SeventyFifthPercentile>143.7387</SeventyFifthPercentile>
+		<NinetyathPercentile>148.5327</NinetyathPercentile>
+		<NinetySeventhPercentile>153.3804</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="10.417">
+		<ThirdPercentile>125.4971</ThirdPercentile>
+		<TenthPercentile>130.0948</TenthPercentile>
+		<TwentyFifthPercentile>134.747</TwentyFifthPercentile>
+		<FiftyathPercentile>139.4531</FiftyathPercentile>
+		<SeventyFifthPercentile>144.2124</SeventyFifthPercentile>
+		<NinetyathPercentile>149.0245</NinetyathPercentile>
+		<NinetySeventhPercentile>153.8887</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="10.5">
+		<ThirdPercentile>125.8846</ThirdPercentile>
+		<TenthPercentile>130.5066</TenthPercentile>
+		<TwentyFifthPercentile>135.1815</TwentyFifthPercentile>
+		<FiftyathPercentile>139.9088</FiftyathPercentile>
+		<SeventyFifthPercentile>144.6877</SeventyFifthPercentile>
+		<NinetyathPercentile>149.5176</NinetyathPercentile>
+		<NinetySeventhPercentile>154.3979</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="10.583">
+		<ThirdPercentile>126.2735</ThirdPercentile>
+		<TenthPercentile>130.9201</TenthPercentile>
+		<TwentyFifthPercentile>135.6179</TwentyFifthPercentile>
+		<FiftyathPercentile>140.3663</FiftyathPercentile>
+		<SeventyFifthPercentile>145.1645</SeventyFifthPercentile>
+		<NinetyathPercentile>150.012</NinetyathPercentile>
+		<NinetySeventhPercentile>154.9081</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="10.667">
+		<ThirdPercentile>126.6642</ThirdPercentile>
+		<TenthPercentile>131.3354</TenthPercentile>
+		<TwentyFifthPercentile>136.0561</TwentyFifthPercentile>
+		<FiftyathPercentile>140.8255</FiftyathPercentile>
+		<SeventyFifthPercentile>145.643</SeventyFifthPercentile>
+		<NinetyathPercentile>150.5079</NinetyathPercentile>
+		<NinetySeventhPercentile>155.4195</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="10.75">
+		<ThirdPercentile>127.0566</ThirdPercentile>
+		<TenthPercentile>131.7526</TenthPercentile>
+		<TwentyFifthPercentile>136.4963</TwentyFifthPercentile>
+		<FiftyathPercentile>141.2867</FiftyathPercentile>
+		<SeventyFifthPercentile>146.1233</SeventyFifthPercentile>
+		<NinetyathPercentile>151.0053</NinetyathPercentile>
+		<NinetySeventhPercentile>155.9321</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="10.833">
+		<ThirdPercentile>127.4509</ThirdPercentile>
+		<TenthPercentile>132.1719</TenthPercentile>
+		<TwentyFifthPercentile>136.9385</TwentyFifthPercentile>
+		<FiftyathPercentile>141.7499</FiftyathPercentile>
+		<SeventyFifthPercentile>146.6054</SeventyFifthPercentile>
+		<NinetyathPercentile>151.5043</NinetyathPercentile>
+		<NinetySeventhPercentile>156.4459</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="10.917">
+		<ThirdPercentile>127.8472</ThirdPercentile>
+		<TenthPercentile>132.5934</TenthPercentile>
+		<TwentyFifthPercentile>137.3829</TwentyFifthPercentile>
+		<FiftyathPercentile>142.2152</FiftyathPercentile>
+		<SeventyFifthPercentile>147.0894</SeventyFifthPercentile>
+		<NinetyathPercentile>152.0049</NinetyathPercentile>
+		<NinetySeventhPercentile>156.961</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="11">
+		<ThirdPercentile>128.2457</ThirdPercentile>
+		<TenthPercentile>133.017</TenthPercentile>
+		<TwentyFifthPercentile>137.8296</TwentyFifthPercentile>
+		<FiftyathPercentile>142.6827</FiftyathPercentile>
+		<SeventyFifthPercentile>147.5755</SeventyFifthPercentile>
+		<NinetyathPercentile>152.5073</NinetyathPercentile>
+		<NinetySeventhPercentile>157.4775</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="11.083">
+		<ThirdPercentile>128.6463</ThirdPercentile>
+		<TenthPercentile>133.443</TenthPercentile>
+		<TwentyFifthPercentile>138.2786</TwentyFifthPercentile>
+		<FiftyathPercentile>143.1523</FiftyathPercentile>
+		<SeventyFifthPercentile>148.0634</SeventyFifthPercentile>
+		<NinetyathPercentile>153.0113</NinetyathPercentile>
+		<NinetySeventhPercentile>157.9952</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="11.167">
+		<ThirdPercentile>129.0492</ThirdPercentile>
+		<TenthPercentile>133.8713</TenthPercentile>
+		<TwentyFifthPercentile>138.7298</TwentyFifthPercentile>
+		<FiftyathPercentile>143.6241</FiftyathPercentile>
+		<SeventyFifthPercentile>148.5533</SeventyFifthPercentile>
+		<NinetyathPercentile>153.5169</NinetyathPercentile>
+		<NinetySeventhPercentile>158.5141</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="11.25">
+		<ThirdPercentile>129.4541</ThirdPercentile>
+		<TenthPercentile>134.3017</TenthPercentile>
+		<TwentyFifthPercentile>139.1832</TwentyFifthPercentile>
+		<FiftyathPercentile>144.0979</FiftyathPercentile>
+		<SeventyFifthPercentile>149.045</SeventyFifthPercentile>
+		<NinetyathPercentile>154.0239</NinetyathPercentile>
+		<NinetySeventhPercentile>159.0339</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="11.333">
+		<ThirdPercentile>129.861</ThirdPercentile>
+		<TenthPercentile>134.7342</TenthPercentile>
+		<TwentyFifthPercentile>139.6387</TwentyFifthPercentile>
+		<FiftyathPercentile>144.5736</FiftyathPercentile>
+		<SeventyFifthPercentile>149.5383</SeventyFifthPercentile>
+		<NinetyathPercentile>154.5322</NinetyathPercentile>
+		<NinetySeventhPercentile>159.5546</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="11.417">
+		<ThirdPercentile>130.2699</ThirdPercentile>
+		<TenthPercentile>135.1688</TenthPercentile>
+		<TwentyFifthPercentile>140.0961</TwentyFifthPercentile>
+		<FiftyathPercentile>145.0511</FiftyathPercentile>
+		<SeventyFifthPercentile>150.0331</SeventyFifthPercentile>
+		<NinetyathPercentile>155.0416</NinetyathPercentile>
+		<NinetySeventhPercentile>160.076</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="11.5">
+		<ThirdPercentile>130.6808</ThirdPercentile>
+		<TenthPercentile>135.6054</TenthPercentile>
+		<TwentyFifthPercentile>140.5555</TwentyFifthPercentile>
+		<FiftyathPercentile>145.5303</FiftyathPercentile>
+		<SeventyFifthPercentile>150.5294</SeventyFifthPercentile>
+		<NinetyathPercentile>155.5521</NinetyathPercentile>
+		<NinetySeventhPercentile>160.5978</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="11.583">
+		<ThirdPercentile>131.0935</ThirdPercentile>
+		<TenthPercentile>136.0439</TenthPercentile>
+		<TwentyFifthPercentile>141.0167</TwentyFifthPercentile>
+		<FiftyathPercentile>146.0112</FiftyathPercentile>
+		<SeventyFifthPercentile>151.027</SeventyFifthPercentile>
+		<NinetyathPercentile>156.0634</NinetyathPercentile>
+		<NinetySeventhPercentile>161.12</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="11.667">
+		<ThirdPercentile>131.5081</ThirdPercentile>
+		<TenthPercentile>136.4843</TenthPercentile>
+		<TwentyFifthPercentile>141.4797</TwentyFifthPercentile>
+		<FiftyathPercentile>146.4937</FiftyathPercentile>
+		<SeventyFifthPercentile>151.5258</SeventyFifthPercentile>
+		<NinetyathPercentile>156.5755</NinetyathPercentile>
+		<NinetySeventhPercentile>161.6424</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="11.75">
+		<ThirdPercentile>131.9245</ThirdPercentile>
+		<TenthPercentile>136.9265</TenthPercentile>
+		<TwentyFifthPercentile>141.9444</TwentyFifthPercentile>
+		<FiftyathPercentile>146.9775</FiftyathPercentile>
+		<SeventyFifthPercentile>152.0256</SeventyFifthPercentile>
+		<NinetyathPercentile>157.0881</NinetyathPercentile>
+		<NinetySeventhPercentile>162.1647</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="11.833">
+		<ThirdPercentile>132.3426</ThirdPercentile>
+		<TenthPercentile>137.3705</TenthPercentile>
+		<TwentyFifthPercentile>142.4106</TwentyFifthPercentile>
+		<FiftyathPercentile>147.4627</FiftyathPercentile>
+		<SeventyFifthPercentile>152.5263</SeventyFifthPercentile>
+		<NinetyathPercentile>157.6011</NinetyathPercentile>
+		<NinetySeventhPercentile>162.6868</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="11.917">
+		<ThirdPercentile>132.7625</ThirdPercentile>
+		<TenthPercentile>137.8161</TenthPercentile>
+		<TwentyFifthPercentile>142.8784</TwentyFifthPercentile>
+		<FiftyathPercentile>147.949</FiftyathPercentile>
+		<SeventyFifthPercentile>153.0278</SeventyFifthPercentile>
+		<NinetyathPercentile>158.1144</NinetyathPercentile>
+		<NinetySeventhPercentile>163.2086</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="12">
+		<ThirdPercentile>133.184</ThirdPercentile>
+		<TenthPercentile>138.2634</TenthPercentile>
+		<TwentyFifthPercentile>143.3476</TwentyFifthPercentile>
+		<FiftyathPercentile>148.4366</FiftyathPercentile>
+		<SeventyFifthPercentile>153.53</SeventyFifthPercentile>
+		<NinetyathPercentile>158.6279</NinetyathPercentile>
+		<NinetySeventhPercentile>163.73</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="12.083">
+		<ThirdPercentile>133.6074</ThirdPercentile>
+		<TenthPercentile>138.7124</TenthPercentile>
+		<TwentyFifthPercentile>143.8183</TwentyFifthPercentile>
+		<FiftyathPercentile>148.9252</FiftyathPercentile>
+		<SeventyFifthPercentile>154.0329</SeventyFifthPercentile>
+		<NinetyathPercentile>159.1414</NinetyathPercentile>
+		<NinetySeventhPercentile>164.2508</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="12.167">
+		<ThirdPercentile>134.0323</ThirdPercentile>
+		<TenthPercentile>139.1628</TenthPercentile>
+		<TwentyFifthPercentile>144.2902</TwentyFifthPercentile>
+		<FiftyathPercentile>149.4146</FiftyathPercentile>
+		<SeventyFifthPercentile>154.5361</SeventyFifthPercentile>
+		<NinetyathPercentile>159.6548</NinetyathPercentile>
+		<NinetySeventhPercentile>164.7708</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="12.25">
+		<ThirdPercentile>134.4587</ThirdPercentile>
+		<TenthPercentile>139.6146</TenthPercentile>
+		<TwentyFifthPercentile>144.7632</TwentyFifthPercentile>
+		<FiftyathPercentile>149.9047</FiftyathPercentile>
+		<SeventyFifthPercentile>155.0395</SeventyFifthPercentile>
+		<NinetyathPercentile>160.1678</NinetyathPercentile>
+		<NinetySeventhPercentile>165.2897</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="12.333">
+		<ThirdPercentile>134.8864</ThirdPercentile>
+		<TenthPercentile>140.0675</TenthPercentile>
+		<TwentyFifthPercentile>145.237</TwentyFifthPercentile>
+		<FiftyathPercentile>150.3952</FiftyathPercentile>
+		<SeventyFifthPercentile>155.5428</SeventyFifthPercentile>
+		<NinetyathPercentile>160.68</NinetyathPercentile>
+		<NinetySeventhPercentile>165.8072</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="12.417">
+		<ThirdPercentile>135.3152</ThirdPercentile>
+		<TenthPercentile>140.5213</TenthPercentile>
+		<TwentyFifthPercentile>145.7113</TwentyFifthPercentile>
+		<FiftyathPercentile>150.8859</FiftyathPercentile>
+		<SeventyFifthPercentile>156.0457</SeventyFifthPercentile>
+		<NinetyathPercentile>161.1912</NinetyathPercentile>
+		<NinetySeventhPercentile>166.323</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="12.5">
+		<ThirdPercentile>135.745</ThirdPercentile>
+		<TenthPercentile>140.9759</TenthPercentile>
+		<TwentyFifthPercentile>146.1861</TwentyFifthPercentile>
+		<FiftyathPercentile>151.3765</FiftyathPercentile>
+		<SeventyFifthPercentile>156.548</SeventyFifthPercentile>
+		<NinetyathPercentile>161.7012</NinetyathPercentile>
+		<NinetySeventhPercentile>166.8369</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="12.583">
+		<ThirdPercentile>136.1756</ThirdPercentile>
+		<TenthPercentile>141.4311</TenthPercentile>
+		<TwentyFifthPercentile>146.6611</TwentyFifthPercentile>
+		<FiftyathPercentile>151.8668</FiftyathPercentile>
+		<SeventyFifthPercentile>157.0493</SeventyFifthPercentile>
+		<NinetyathPercentile>162.2096</NinetyathPercentile>
+		<NinetySeventhPercentile>167.3485</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="12.667">
+		<ThirdPercentile>136.6069</ThirdPercentile>
+		<TenthPercentile>141.8866</TenthPercentile>
+		<TwentyFifthPercentile>147.136</TwentyFifthPercentile>
+		<FiftyathPercentile>152.3565</FiftyathPercentile>
+		<SeventyFifthPercentile>157.5496</SeventyFifthPercentile>
+		<NinetyathPercentile>162.7162</NinetyathPercentile>
+		<NinetySeventhPercentile>167.8576</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="12.75">
+		<ThirdPercentile>137.0388</ThirdPercentile>
+		<TenthPercentile>142.3423</TenthPercentile>
+		<TwentyFifthPercentile>147.6106</TwentyFifthPercentile>
+		<FiftyathPercentile>152.8455</FiftyathPercentile>
+		<SeventyFifthPercentile>158.0484</SeventyFifthPercentile>
+		<NinetyathPercentile>163.2208</NinetyathPercentile>
+		<NinetySeventhPercentile>168.3639</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="12.833">
+		<ThirdPercentile>137.471</ThirdPercentile>
+		<TenthPercentile>142.798</TenthPercentile>
+		<TwentyFifthPercentile>148.0848</TwentyFifthPercentile>
+		<FiftyathPercentile>153.3333</FiftyathPercentile>
+		<SeventyFifthPercentile>158.5455</SeventyFifthPercentile>
+		<NinetyathPercentile>163.7229</NinetyathPercentile>
+		<NinetySeventhPercentile>168.8672</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="12.917">
+		<ThirdPercentile>137.9034</ThirdPercentile>
+		<TenthPercentile>143.2535</TenthPercentile>
+		<TwentyFifthPercentile>148.5582</TwentyFifthPercentile>
+		<FiftyathPercentile>153.8199</FiftyathPercentile>
+		<SeventyFifthPercentile>159.0406</SeventyFifthPercentile>
+		<NinetyathPercentile>164.2224</NinetyathPercentile>
+		<NinetySeventhPercentile>169.367</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="13">
+		<ThirdPercentile>138.3359</ThirdPercentile>
+		<TenthPercentile>143.7086</TenthPercentile>
+		<TwentyFifthPercentile>149.0308</TwentyFifthPercentile>
+		<FiftyathPercentile>154.3049</FiftyathPercentile>
+		<SeventyFifthPercentile>159.5336</SeventyFifthPercentile>
+		<NinetyathPercentile>164.719</NinetyathPercentile>
+		<NinetySeventhPercentile>169.8632</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="13.083">
+		<ThirdPercentile>138.7683</ThirdPercentile>
+		<TenthPercentile>144.1632</TenthPercentile>
+		<TwentyFifthPercentile>149.5021</TwentyFifthPercentile>
+		<FiftyathPercentile>154.7881</FiftyathPercentile>
+		<SeventyFifthPercentile>160.024</SeventyFifthPercentile>
+		<NinetyathPercentile>165.2123</NinetyathPercentile>
+		<NinetySeventhPercentile>170.3554</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="13.167">
+		<ThirdPercentile>139.2002</ThirdPercentile>
+		<TenthPercentile>144.6167</TenthPercentile>
+		<TwentyFifthPercentile>149.9718</TwentyFifthPercentile>
+		<FiftyathPercentile>155.269</FiftyathPercentile>
+		<SeventyFifthPercentile>160.5114</SeventyFifthPercentile>
+		<NinetyathPercentile>165.7019</NinetyathPercentile>
+		<NinetySeventhPercentile>170.8431</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="13.25">
+		<ThirdPercentile>139.6313</ThirdPercentile>
+		<TenthPercentile>145.0688</TenthPercentile>
+		<TwentyFifthPercentile>150.4395</TwentyFifthPercentile>
+		<FiftyathPercentile>155.7471</FiftyathPercentile>
+		<SeventyFifthPercentile>160.9953</SeventyFifthPercentile>
+		<NinetyathPercentile>166.1873</NinetyathPercentile>
+		<NinetySeventhPercentile>171.3259</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="13.333">
+		<ThirdPercentile>140.0612</ThirdPercentile>
+		<TenthPercentile>145.5192</TenthPercentile>
+		<TwentyFifthPercentile>150.9047</TwentyFifthPercentile>
+		<FiftyathPercentile>156.2221</FiftyathPercentile>
+		<SeventyFifthPercentile>161.4753</SeventyFifthPercentile>
+		<NinetyathPercentile>166.668</NinetyathPercentile>
+		<NinetySeventhPercentile>171.8033</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="13.417">
+		<ThirdPercentile>140.4896</ThirdPercentile>
+		<TenthPercentile>145.9674</TenthPercentile>
+		<TwentyFifthPercentile>151.3671</TwentyFifthPercentile>
+		<FiftyathPercentile>156.6935</FiftyathPercentile>
+		<SeventyFifthPercentile>161.9511</SeventyFifthPercentile>
+		<NinetyathPercentile>167.1437</NinetyathPercentile>
+		<NinetySeventhPercentile>172.2748</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="13.5">
+		<ThirdPercentile>140.9162</ThirdPercentile>
+		<TenthPercentile>146.4131</TenthPercentile>
+		<TwentyFifthPercentile>151.8262</TwentyFifthPercentile>
+		<FiftyathPercentile>157.1609</FiftyathPercentile>
+		<SeventyFifthPercentile>162.4221</SeventyFifthPercentile>
+		<NinetyathPercentile>167.6139</NinetyathPercentile>
+		<NinetySeventhPercentile>172.7402</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="13.583">
+		<ThirdPercentile>141.3407</ThirdPercentile>
+		<TenthPercentile>146.856</TenthPercentile>
+		<TwentyFifthPercentile>152.2819</TwentyFifthPercentile>
+		<FiftyathPercentile>157.6241</FiftyathPercentile>
+		<SeventyFifthPercentile>162.888</SeventyFifthPercentile>
+		<NinetyathPercentile>168.0782</NinetyathPercentile>
+		<NinetySeventhPercentile>173.199</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="13.667">
+		<ThirdPercentile>141.7628</ThirdPercentile>
+		<TenthPercentile>147.2958</TenthPercentile>
+		<TwentyFifthPercentile>152.7336</TwentyFifthPercentile>
+		<FiftyathPercentile>158.0826</FiftyathPercentile>
+		<SeventyFifthPercentile>163.3485</SeventyFifthPercentile>
+		<NinetyathPercentile>168.5364</NinetyathPercentile>
+		<NinetySeventhPercentile>173.6509</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="13.75">
+		<ThirdPercentile>142.1823</ThirdPercentile>
+		<TenthPercentile>147.7322</TenthPercentile>
+		<TwentyFifthPercentile>153.1811</TwentyFifthPercentile>
+		<FiftyathPercentile>158.536</FiftyathPercentile>
+		<SeventyFifthPercentile>163.8031</SeventyFifthPercentile>
+		<NinetyathPercentile>168.9879</NinetyathPercentile>
+		<NinetySeventhPercentile>174.0955</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="13.833">
+		<ThirdPercentile>142.5988</ThirdPercentile>
+		<TenthPercentile>148.1648</TenthPercentile>
+		<TwentyFifthPercentile>153.624</TwentyFifthPercentile>
+		<FiftyathPercentile>158.984</FiftyathPercentile>
+		<SeventyFifthPercentile>164.2516</SeventyFifthPercentile>
+		<NinetyathPercentile>169.4326</NinetyathPercentile>
+		<NinetySeventhPercentile>174.5324</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="13.917">
+		<ThirdPercentile>143.0121</ThirdPercentile>
+		<TenthPercentile>148.5934</TenthPercentile>
+		<TwentyFifthPercentile>154.0621</TwentyFifthPercentile>
+		<FiftyathPercentile>159.4265</FiftyathPercentile>
+		<SeventyFifthPercentile>164.6936</SeventyFifthPercentile>
+		<NinetyathPercentile>169.8701</NinetyathPercentile>
+		<NinetySeventhPercentile>174.9615</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="14">
+		<ThirdPercentile>143.4221</ThirdPercentile>
+		<TenthPercentile>149.0178</TenthPercentile>
+		<TwentyFifthPercentile>154.4952</TwentyFifthPercentile>
+		<FiftyathPercentile>159.863</FiftyathPercentile>
+		<SeventyFifthPercentile>165.129</SeventyFifthPercentile>
+		<NinetyathPercentile>170.3001</NinetyathPercentile>
+		<NinetySeventhPercentile>175.3824</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="14.083">
+		<ThirdPercentile>143.8285</ThirdPercentile>
+		<TenthPercentile>149.4378</TenthPercentile>
+		<TwentyFifthPercentile>154.9229</TwentyFifthPercentile>
+		<FiftyathPercentile>160.2933</FiftyathPercentile>
+		<SeventyFifthPercentile>165.5574</SeventyFifthPercentile>
+		<NinetyathPercentile>170.7225</NinetyathPercentile>
+		<NinetySeventhPercentile>175.795</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="14.167">
+		<ThirdPercentile>144.2309</ThirdPercentile>
+		<TenthPercentile>149.8529</TenthPercentile>
+		<TwentyFifthPercentile>155.3449</TwentyFifthPercentile>
+		<FiftyathPercentile>160.7172</FiftyathPercentile>
+		<SeventyFifthPercentile>165.9786</SeventyFifthPercentile>
+		<NinetyathPercentile>171.1369</NinetyathPercentile>
+		<NinetySeventhPercentile>176.1989</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="14.25">
+		<ThirdPercentile>144.6292</ThirdPercentile>
+		<TenthPercentile>150.2629</TenthPercentile>
+		<TwentyFifthPercentile>155.761</TwentyFifthPercentile>
+		<FiftyathPercentile>161.1342</FiftyathPercentile>
+		<SeventyFifthPercentile>166.3921</SeventyFifthPercentile>
+		<NinetyathPercentile>171.5429</NinetyathPercentile>
+		<NinetySeventhPercentile>176.5938</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="14.333">
+		<ThirdPercentile>145.0229</ThirdPercentile>
+		<TenthPercentile>150.6675</TenthPercentile>
+		<TwentyFifthPercentile>156.1707</TwentyFifthPercentile>
+		<FiftyathPercentile>161.5441</FiftyathPercentile>
+		<SeventyFifthPercentile>166.7977</SeventyFifthPercentile>
+		<NinetyathPercentile>171.9403</NinetyathPercentile>
+		<NinetySeventhPercentile>176.9795</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="14.417">
+		<ThirdPercentile>145.4118</ThirdPercentile>
+		<TenthPercentile>151.0664</TenthPercentile>
+		<TwentyFifthPercentile>156.574</TwentyFifthPercentile>
+		<FiftyathPercentile>161.9467</FiftyathPercentile>
+		<SeventyFifthPercentile>167.1953</SeventyFifthPercentile>
+		<NinetyathPercentile>172.3289</NinetyathPercentile>
+		<NinetySeventhPercentile>177.3557</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="14.5">
+		<ThirdPercentile>145.7957</ThirdPercentile>
+		<TenthPercentile>151.4594</TenthPercentile>
+		<TwentyFifthPercentile>156.9704</TwentyFifthPercentile>
+		<FiftyathPercentile>162.3417</FiftyathPercentile>
+		<SeventyFifthPercentile>167.5844</SeventyFifthPercentile>
+		<NinetyathPercentile>172.7084</NinetyathPercentile>
+		<NinetySeventhPercentile>177.7222</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="14.583">
+		<ThirdPercentile>146.1744</ThirdPercentile>
+		<TenthPercentile>151.8463</TenthPercentile>
+		<TwentyFifthPercentile>157.36</TwentyFifthPercentile>
+		<FiftyathPercentile>162.7289</FiftyathPercentile>
+		<SeventyFifthPercentile>167.9651</SeventyFifthPercentile>
+		<NinetyathPercentile>173.0788</NinetyathPercentile>
+		<NinetySeventhPercentile>178.0789</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="14.667">
+		<ThirdPercentile>146.5477</ThirdPercentile>
+		<TenthPercentile>152.2269</TenthPercentile>
+		<TwentyFifthPercentile>157.7423</TwentyFifthPercentile>
+		<FiftyathPercentile>163.1082</FiftyathPercentile>
+		<SeventyFifthPercentile>168.3372</SeventyFifthPercentile>
+		<NinetyathPercentile>173.4398</NinetyathPercentile>
+		<NinetySeventhPercentile>178.4257</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="14.75">
+		<ThirdPercentile>146.9153</ThirdPercentile>
+		<TenthPercentile>152.6011</TenthPercentile>
+		<TwentyFifthPercentile>158.1174</TwentyFifthPercentile>
+		<FiftyathPercentile>163.4795</FiftyathPercentile>
+		<SeventyFifthPercentile>168.7004</SeventyFifthPercentile>
+		<NinetyathPercentile>173.7914</NinetyathPercentile>
+		<NinetySeventhPercentile>178.7624</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="14.833">
+		<ThirdPercentile>147.2772</ThirdPercentile>
+		<TenthPercentile>152.9686</TenthPercentile>
+		<TwentyFifthPercentile>158.485</TwentyFifthPercentile>
+		<FiftyathPercentile>163.8425</FiftyathPercentile>
+		<SeventyFifthPercentile>169.0547</SeventyFifthPercentile>
+		<NinetyathPercentile>174.1335</NinetyathPercentile>
+		<NinetySeventhPercentile>179.0891</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="14.917">
+		<ThirdPercentile>147.6333</ThirdPercentile>
+		<TenthPercentile>153.3295</TenthPercentile>
+		<TwentyFifthPercentile>158.8452</TwentyFifthPercentile>
+		<FiftyathPercentile>164.1974</FiftyathPercentile>
+		<SeventyFifthPercentile>169.4002</SeventyFifthPercentile>
+		<NinetyathPercentile>174.4661</NinetyathPercentile>
+		<NinetySeventhPercentile>179.4057</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="15">
+		<ThirdPercentile>147.9835</ThirdPercentile>
+		<TenthPercentile>153.6836</TenthPercentile>
+		<TwentyFifthPercentile>159.1979</TwentyFifthPercentile>
+		<FiftyathPercentile>164.544</FiftyathPercentile>
+		<SeventyFifthPercentile>169.7368</SeventyFifthPercentile>
+		<NinetyathPercentile>174.7892</NinetyathPercentile>
+		<NinetySeventhPercentile>179.7122</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="15.083">
+		<ThirdPercentile>148.3279</ThirdPercentile>
+		<TenthPercentile>154.0311</TenthPercentile>
+		<TwentyFifthPercentile>159.5432</TwentyFifthPercentile>
+		<FiftyathPercentile>164.8825</FiftyathPercentile>
+		<SeventyFifthPercentile>170.0646</SeventyFifthPercentile>
+		<NinetyathPercentile>175.1029</NinetyathPercentile>
+		<NinetySeventhPercentile>180.009</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="15.167">
+		<ThirdPercentile>148.6664</ThirdPercentile>
+		<TenthPercentile>154.372</TenthPercentile>
+		<TwentyFifthPercentile>159.8811</TwentyFifthPercentile>
+		<FiftyathPercentile>165.2129</FiftyathPercentile>
+		<SeventyFifthPercentile>170.3837</SeventyFifthPercentile>
+		<NinetyathPercentile>175.4074</NinetyathPercentile>
+		<NinetySeventhPercentile>180.2961</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="15.25">
+		<ThirdPercentile>148.9992</ThirdPercentile>
+		<TenthPercentile>154.7063</TenthPercentile>
+		<TwentyFifthPercentile>160.2117</TwentyFifthPercentile>
+		<FiftyathPercentile>165.5354</FiftyathPercentile>
+		<SeventyFifthPercentile>170.6943</SeventyFifthPercentile>
+		<NinetyathPercentile>175.7029</NinetyathPercentile>
+		<NinetySeventhPercentile>180.5736</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="15.333">
+		<ThirdPercentile>149.3263</ThirdPercentile>
+		<TenthPercentile>155.0342</TenthPercentile>
+		<TwentyFifthPercentile>160.5352</TwentyFifthPercentile>
+		<FiftyathPercentile>165.8501</FiftyathPercentile>
+		<SeventyFifthPercentile>170.9966</SeventyFifthPercentile>
+		<NinetyathPercentile>175.9896</NinetyathPercentile>
+		<NinetySeventhPercentile>180.842</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="15.417">
+		<ThirdPercentile>149.6479</ThirdPercentile>
+		<TenthPercentile>155.3558</TenthPercentile>
+		<TwentyFifthPercentile>160.8517</TwentyFifthPercentile>
+		<FiftyathPercentile>166.1573</FiftyathPercentile>
+		<SeventyFifthPercentile>171.2908</SeventyFifthPercentile>
+		<NinetyathPercentile>176.2677</NinetyathPercentile>
+		<NinetySeventhPercentile>181.1015</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="15.5">
+		<ThirdPercentile>149.9641</ThirdPercentile>
+		<TenthPercentile>155.6712</TenthPercentile>
+		<TwentyFifthPercentile>161.1614</TwentyFifthPercentile>
+		<FiftyathPercentile>166.457</FiftyathPercentile>
+		<SeventyFifthPercentile>171.5771</SeventyFifthPercentile>
+		<NinetyathPercentile>176.5376</NinetyathPercentile>
+		<NinetySeventhPercentile>181.3523</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="15.583">
+		<ThirdPercentile>150.275</ThirdPercentile>
+		<TenthPercentile>155.9808</TenthPercentile>
+		<TwentyFifthPercentile>161.4646</TwentyFifthPercentile>
+		<FiftyathPercentile>166.7498</FiftyathPercentile>
+		<SeventyFifthPercentile>171.8559</SeventyFifthPercentile>
+		<NinetyathPercentile>176.7995</NinetyathPercentile>
+		<NinetySeventhPercentile>181.5948</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="15.667">
+		<ThirdPercentile>150.581</ThirdPercentile>
+		<TenthPercentile>156.2847</TenthPercentile>
+		<TwentyFifthPercentile>161.7615</TwentyFifthPercentile>
+		<FiftyathPercentile>167.0356</FiftyathPercentile>
+		<SeventyFifthPercentile>172.1274</SeventyFifthPercentile>
+		<NinetyathPercentile>177.0538</NinetyathPercentile>
+		<NinetySeventhPercentile>181.8294</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="15.75">
+		<ThirdPercentile>150.8822</ThirdPercentile>
+		<TenthPercentile>156.5831</TenthPercentile>
+		<TwentyFifthPercentile>162.0524</TwentyFifthPercentile>
+		<FiftyathPercentile>167.315</FiftyathPercentile>
+		<SeventyFifthPercentile>172.3919</SeventyFifthPercentile>
+		<NinetyathPercentile>177.3007</NinetyathPercentile>
+		<NinetySeventhPercentile>182.0564</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="15.833">
+		<ThirdPercentile>151.1788</ThirdPercentile>
+		<TenthPercentile>156.8764</TenthPercentile>
+		<TwentyFifthPercentile>162.3375</TwentyFifthPercentile>
+		<FiftyathPercentile>167.5882</FiftyathPercentile>
+		<SeventyFifthPercentile>172.65</SeventyFifthPercentile>
+		<NinetyathPercentile>177.5408</NinetyathPercentile>
+		<NinetySeventhPercentile>182.2763</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="15.917">
+		<ThirdPercentile>151.4712</ThirdPercentile>
+		<TenthPercentile>157.1647</TenthPercentile>
+		<TwentyFifthPercentile>162.6173</TwentyFifthPercentile>
+		<FiftyathPercentile>167.8556</FiftyathPercentile>
+		<SeventyFifthPercentile>172.9017</SeventyFifthPercentile>
+		<NinetyathPercentile>177.7744</NinetyathPercentile>
+		<NinetySeventhPercentile>182.4895</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="16">
+		<ThirdPercentile>151.7596</ThirdPercentile>
+		<TenthPercentile>157.4486</TenthPercentile>
+		<TwentyFifthPercentile>162.892</TwentyFifthPercentile>
+		<FiftyathPercentile>168.1174</FiftyathPercentile>
+		<SeventyFifthPercentile>173.1477</SeventyFifthPercentile>
+		<NinetyathPercentile>178.002</NinetyathPercentile>
+		<NinetySeventhPercentile>182.6964</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="16.083">
+		<ThirdPercentile>152.0442</ThirdPercentile>
+		<TenthPercentile>157.7281</TenthPercentile>
+		<TwentyFifthPercentile>163.162</TwentyFifthPercentile>
+		<FiftyathPercentile>168.3742</FiftyathPercentile>
+		<SeventyFifthPercentile>173.3883</SeventyFifthPercentile>
+		<NinetyathPercentile>178.2238</NinetyathPercentile>
+		<NinetySeventhPercentile>182.8975</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="16.167">
+		<ThirdPercentile>152.3254</ThirdPercentile>
+		<TenthPercentile>158.0037</TenthPercentile>
+		<TwentyFifthPercentile>163.4275</TwentyFifthPercentile>
+		<FiftyathPercentile>168.6262</FiftyathPercentile>
+		<SeventyFifthPercentile>173.6237</SeventyFifthPercentile>
+		<NinetyathPercentile>178.4404</NinetyathPercentile>
+		<NinetySeventhPercentile>183.0932</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="16.25">
+		<ThirdPercentile>152.6035</ThirdPercentile>
+		<TenthPercentile>158.2756</TenthPercentile>
+		<TwentyFifthPercentile>163.6889</TwentyFifthPercentile>
+		<FiftyathPercentile>168.8737</FiftyathPercentile>
+		<SeventyFifthPercentile>173.8545</SeventyFifthPercentile>
+		<NinetyathPercentile>178.6521</NinetyathPercentile>
+		<NinetySeventhPercentile>183.2838</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="16.333">
+		<ThirdPercentile>152.8786</ThirdPercentile>
+		<TenthPercentile>158.5441</TenthPercentile>
+		<TwentyFifthPercentile>163.9466</TwentyFifthPercentile>
+		<FiftyathPercentile>169.1171</FiftyathPercentile>
+		<SeventyFifthPercentile>174.0809</SeventyFifthPercentile>
+		<NinetyathPercentile>178.8592</NinetyathPercentile>
+		<NinetySeventhPercentile>183.4698</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="16.417">
+		<ThirdPercentile>153.151</ThirdPercentile>
+		<TenthPercentile>158.8094</TenthPercentile>
+		<TwentyFifthPercentile>164.2007</TwentyFifthPercentile>
+		<FiftyathPercentile>169.3567</FiftyathPercentile>
+		<SeventyFifthPercentile>174.3033</SeventyFifthPercentile>
+		<NinetyathPercentile>179.0622</NinetyathPercentile>
+		<NinetySeventhPercentile>183.6516</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="16.5">
+		<ThirdPercentile>153.4211</ThirdPercentile>
+		<TenthPercentile>159.0719</TenthPercentile>
+		<TwentyFifthPercentile>164.4516</TwentyFifthPercentile>
+		<FiftyathPercentile>169.5928</FiftyathPercentile>
+		<SeventyFifthPercentile>174.522</SeventyFifthPercentile>
+		<NinetyathPercentile>179.2614</NinetyathPercentile>
+		<NinetySeventhPercentile>183.8295</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="16.583">
+		<ThirdPercentile>153.689</ThirdPercentile>
+		<TenthPercentile>159.3319</TenthPercentile>
+		<TwentyFifthPercentile>164.6997</TwentyFifthPercentile>
+		<FiftyathPercentile>169.8258</FiftyathPercentile>
+		<SeventyFifthPercentile>174.7374</SeventyFifthPercentile>
+		<NinetyathPercentile>179.4571</NinetyathPercentile>
+		<NinetySeventhPercentile>184.0038</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="16.667">
+		<ThirdPercentile>153.955</ThirdPercentile>
+		<TenthPercentile>159.5896</TenthPercentile>
+		<TwentyFifthPercentile>164.9452</TwentyFifthPercentile>
+		<FiftyathPercentile>170.056</FiftyathPercentile>
+		<SeventyFifthPercentile>174.9498</SeventyFifthPercentile>
+		<NinetyathPercentile>179.6498</NinetyathPercentile>
+		<NinetySeventhPercentile>184.1751</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="16.75">
+		<ThirdPercentile>154.2194</ThirdPercentile>
+		<TenthPercentile>159.8452</TenthPercentile>
+		<TwentyFifthPercentile>165.1883</TwentyFifthPercentile>
+		<FiftyathPercentile>170.2836</FiftyathPercentile>
+		<SeventyFifthPercentile>175.1595</SeventyFifthPercentile>
+		<NinetyathPercentile>179.8396</NinetyathPercentile>
+		<NinetySeventhPercentile>184.3436</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="16.833">
+		<ThirdPercentile>154.4823</ThirdPercentile>
+		<TenthPercentile>160.0991</TenthPercentile>
+		<TwentyFifthPercentile>165.4294</TwentyFifthPercentile>
+		<FiftyathPercentile>170.509</FiftyathPercentile>
+		<SeventyFifthPercentile>175.3669</SeventyFifthPercentile>
+		<NinetyathPercentile>180.0271</NinetyathPercentile>
+		<NinetySeventhPercentile>184.5096</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="16.917">
+		<ThirdPercentile>154.7441</ThirdPercentile>
+		<TenthPercentile>160.3514</TenthPercentile>
+		<TwentyFifthPercentile>165.6687</TwentyFifthPercentile>
+		<FiftyathPercentile>170.7324</FiftyathPercentile>
+		<SeventyFifthPercentile>175.5721</SeventyFifthPercentile>
+		<NinetyathPercentile>180.2124</NinetyathPercentile>
+		<NinetySeventhPercentile>184.6735</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="17">
+		<ThirdPercentile>155.0049</ThirdPercentile>
+		<TenthPercentile>160.6025</TenthPercentile>
+		<TwentyFifthPercentile>165.9065</TwentyFifthPercentile>
+		<FiftyathPercentile>170.9541</FiftyathPercentile>
+		<SeventyFifthPercentile>175.7756</SeventyFifthPercentile>
+		<NinetyathPercentile>180.3958</NinetyathPercentile>
+		<NinetySeventhPercentile>184.8355</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="17.083">
+		<ThirdPercentile>155.265</ThirdPercentile>
+		<TenthPercentile>160.8526</TenthPercentile>
+		<TwentyFifthPercentile>166.143</TwentyFifthPercentile>
+		<FiftyathPercentile>171.1744</FiftyathPercentile>
+		<SeventyFifthPercentile>175.9776</SeventyFifthPercentile>
+		<NinetyathPercentile>180.5778</NinetyathPercentile>
+		<NinetySeventhPercentile>184.996</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="17.167">
+		<ThirdPercentile>155.5245</ThirdPercentile>
+		<TenthPercentile>161.1018</TenthPercentile>
+		<TwentyFifthPercentile>166.3784</TwentyFifthPercentile>
+		<FiftyathPercentile>171.3935</FiftyathPercentile>
+		<SeventyFifthPercentile>176.1782</SeventyFifthPercentile>
+		<NinetyathPercentile>180.7584</NinetyathPercentile>
+		<NinetySeventhPercentile>185.1553</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="17.25">
+		<ThirdPercentile>155.7837</ThirdPercentile>
+		<TenthPercentile>161.3503</TenthPercentile>
+		<TwentyFifthPercentile>166.6131</TwentyFifthPercentile>
+		<FiftyathPercentile>171.6116</FiftyathPercentile>
+		<SeventyFifthPercentile>176.3779</SeventyFifthPercentile>
+		<NinetyathPercentile>180.938</NinetyathPercentile>
+		<NinetySeventhPercentile>185.3136</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="17.333">
+		<ThirdPercentile>156.0426</ThirdPercentile>
+		<TenthPercentile>161.5984</TenthPercentile>
+		<TwentyFifthPercentile>166.847</TwentyFifthPercentile>
+		<FiftyathPercentile>171.829</FiftyathPercentile>
+		<SeventyFifthPercentile>176.5767</SeventyFifthPercentile>
+		<NinetyathPercentile>181.1167</NinetyathPercentile>
+		<NinetySeventhPercentile>185.471</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="17.417">
+		<ThirdPercentile>156.3016</ThirdPercentile>
+		<TenthPercentile>161.8462</TenthPercentile>
+		<TwentyFifthPercentile>167.0805</TwentyFifthPercentile>
+		<FiftyathPercentile>172.0457</FiftyathPercentile>
+		<SeventyFifthPercentile>176.7748</SeventyFifthPercentile>
+		<NinetyathPercentile>181.2948</NinetyathPercentile>
+		<NinetySeventhPercentile>185.6279</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="17.5">
+		<ThirdPercentile>156.5606</ThirdPercentile>
+		<TenthPercentile>162.0938</TenthPercentile>
+		<TwentyFifthPercentile>167.3137</TwentyFifthPercentile>
+		<FiftyathPercentile>172.262</FiftyathPercentile>
+		<SeventyFifthPercentile>176.9725</SeventyFifthPercentile>
+		<NinetyathPercentile>181.4724</NinetyathPercentile>
+		<NinetySeventhPercentile>185.7843</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="17.583">
+		<ThirdPercentile>156.8197</ThirdPercentile>
+		<TenthPercentile>162.3414</TenthPercentile>
+		<TwentyFifthPercentile>167.5466</TwentyFifthPercentile>
+		<FiftyathPercentile>172.478</FiftyathPercentile>
+		<SeventyFifthPercentile>177.1698</SeventyFifthPercentile>
+		<NinetyathPercentile>181.6496</NinetyathPercentile>
+		<NinetySeventhPercentile>185.9404</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="17.667">
+		<ThirdPercentile>157.0792</ThirdPercentile>
+		<TenthPercentile>162.589</TenthPercentile>
+		<TwentyFifthPercentile>167.7794</TwentyFifthPercentile>
+		<FiftyathPercentile>172.6938</FiftyathPercentile>
+		<SeventyFifthPercentile>177.3668</SeventyFifthPercentile>
+		<NinetyathPercentile>181.8266</NinetyathPercentile>
+		<NinetySeventhPercentile>186.0963</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="17.75">
+		<ThirdPercentile>157.339</ThirdPercentile>
+		<TenthPercentile>162.8367</TenthPercentile>
+		<TwentyFifthPercentile>168.0121</TwentyFifthPercentile>
+		<FiftyathPercentile>172.9094</FiftyathPercentile>
+		<SeventyFifthPercentile>177.5637</SeventyFifthPercentile>
+		<NinetyathPercentile>182.0034</NinetyathPercentile>
+		<NinetySeventhPercentile>186.2522</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="17.833">
+		<ThirdPercentile>157.5993</ThirdPercentile>
+		<TenthPercentile>163.0845</TenthPercentile>
+		<TwentyFifthPercentile>168.2448</TwentyFifthPercentile>
+		<FiftyathPercentile>173.1249</FiftyathPercentile>
+		<SeventyFifthPercentile>177.7604</SeventyFifthPercentile>
+		<NinetyathPercentile>182.1801</NinetyathPercentile>
+		<NinetySeventhPercentile>186.4079</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="17.917">
+		<ThirdPercentile>157.86</ThirdPercentile>
+		<TenthPercentile>163.3326</TenthPercentile>
+		<TwentyFifthPercentile>168.4776</TwentyFifthPercentile>
+		<FiftyathPercentile>173.3404</FiftyathPercentile>
+		<SeventyFifthPercentile>177.957</SeventyFifthPercentile>
+		<NinetyathPercentile>182.3568</NinetyathPercentile>
+		<NinetySeventhPercentile>186.5637</NinetySeventhPercentile>
+	</Year>
+	<Year YearName="18">
+		<ThirdPercentile>158.1211</ThirdPercentile>
+		<TenthPercentile>163.581</TenthPercentile>
+		<TwentyFifthPercentile>168.7105</TwentyFifthPercentile>
+		<FiftyathPercentile>173.5558</FiftyathPercentile>
+		<SeventyFifthPercentile>178.1536</SeventyFifthPercentile>
+		<NinetyathPercentile>182.5334</NinetyathPercentile>
+		<NinetySeventhPercentile>186.7195</NinetySeventhPercentile>
+	</Year>
+</WHOBoysIAP_5_to_18Years_Height>

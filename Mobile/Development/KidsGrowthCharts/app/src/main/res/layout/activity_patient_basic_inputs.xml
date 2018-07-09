@@ -1,0 +1,573 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    tools:context="com.goalsr.kidsgrowth.kidsgrowthcharts.ui.PatientBasicInputs">
+
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <!--Patient Information Layout Satrts-->
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="05dp"
+                android:layout_marginRight="05dp"
+                android:layout_marginTop="20dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <!-- Heading Text View -->
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:id="@+id/contact_nametile"
+                            style="@style/patientViewHeaderStyle"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="15dp"
+                            android:layout_marginLeft="14dp"
+                            android:layout_marginRight="14dp"
+                            android:layout_marginTop="15dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/textviewroundedcorner"
+                            android:gravity="center"
+                            android:paddingBottom="@dimen/ptextviewpadding"
+                            android:paddingLeft="@dimen/ptextviewpadding"
+                            android:paddingRight="@dimen/ptextviewpadding"
+                            android:paddingTop="@dimen/ptextviewpadding"
+                            android:text="Patient Information" />
+                    </TableRow>
+
+                    <!-- Input name View And Edit Text-->
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/patientnamelabel"
+                            style="@style/patientViewLabelStyle"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:gravity="left"
+                            android:paddingLeft="@dimen/pviewpadding"
+                            android:paddingTop="@dimen/ptextviewpadding"
+                            android:text="Name : " />
+
+                        <EditText
+                            android:id="@+id/patientname"
+                            style="@style/PatientDataInputBoxes"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentStart="true"
+                            android:layout_below="@+id/textView3"
+                            android:layout_column="1"
+                            android:elegantTextHeight="false"
+                            android:ems="10"
+                            android:hint="@string/patient_name"
+                            android:inputType="textCapSentences"
+                            android:maxLength="45"
+                            android:singleLine="true" />
+
+                    </TableRow>
+
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/patientdoblabel"
+                            style="@style/patientViewLabelStyle"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:gravity="left"
+                            android:paddingLeft="@dimen/pviewpadding"
+                            android:paddingTop="@dimen/ptextviewpadding"
+                            android:text="DOB : " />
+
+
+
+                        <EditText
+                            android:id="@+id/patientdob"
+                            style="@style/PatientDataInputBoxes"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_column="1"
+                            android:editable="false"
+                            android:ems="10"
+                            android:focusableInTouchMode="false"
+                            android:hint="@string/patient_dob" />
+                        <!--<DatePicker-->
+                            <!--android:id="@+id/datePicker"-->
+                            <!--android:layout_width="match_parent"-->
+                            <!--android:layout_height="match_parent"-->
+                            <!--android:layout_column="1"-->
+                            <!--android:layout_marginEnd="8dp"-->
+                            <!--android:layout_marginStart="8dp"-->
+                            <!--android:hint="@string/patient_dob"-->
+                            <!--android:layout_marginTop="8dp"/>-->
+
+                    </TableRow>
+
+                    <!-- Input Age View And Edit Text-->
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/patientagelabel"
+                            style="@style/patientViewLabelStyle"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:gravity="left"
+                            android:paddingLeft="@dimen/pviewpadding"
+                            android:paddingTop="@dimen/ptextviewpadding"
+                            android:text="Age : " />
+
+                        <EditText
+                            android:id="@+id/patientage"
+                            style="@style/PatientDataInputBoxes"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentStart="true"
+                            android:layout_below="@+id/textView3"
+                            android:layout_column="1"
+                            android:digits="0123456789."
+                            android:elegantTextHeight="false"
+                            android:ems="10"
+                            android:hint="@string/patient_age"
+                            android:inputType="numberDecimal"
+                            android:maxLength="5"
+                            android:singleLine="true"
+                            android:textColor="@color/black" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/patientgenderlabel"
+                            style="@style/patientViewLabelStyle"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:gravity="left"
+                            android:paddingLeft="@dimen/pviewpadding"
+                            android:paddingTop="@dimen/ptextviewpadding"
+                            android:text="Gender : " />
+
+                        <Spinner
+                            android:id="@+id/patientgenderlist"
+                            style="@style/PatientDataInputBoxes"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right|left"
+                            android:choiceMode="singleChoice"
+                            android:clickable="true"
+                            android:contentDescription="Gender"
+                            android:contextClickable="true"
+                            android:drawSelectorOnTop="true"
+                            android:entries="@array/patient_gender_array"
+                            android:fastScrollAlwaysVisible="true"
+                            android:fastScrollEnabled="true"
+                            android:focusable="true"
+                            android:focusableInTouchMode="true"
+                            android:footerDividersEnabled="false"
+                            android:headerDividersEnabled="false"
+                            android:layoutMode="clipBounds"
+                            android:spinnerMode="dropdown" />
+
+
+                    </TableRow>
+
+                    <!-- <TableRow
+                         android:layout_width="match_parent"
+                         android:layout_height="wrap_content">
+
+                         <TextView android:id="@+id/patientcitylabel"
+                             android:layout_width="100dp"
+                             android:layout_height="wrap_content"
+                             android:paddingLeft="@dimen/pviewpadding"
+                             android:paddingTop="@dimen/ptextviewpadding"
+                             style="@style/patientViewLabelStyle"
+                             android:text="City : "
+                             android:gravity="left"
+                             android:layout_gravity="left" />
+
+                         <EditText
+                             android:layout_width="match_parent"
+                             android:layout_height="wrap_content"
+                             android:id="@+id/patientcity"
+                             android:singleLine="true"
+                             android:inputType="textCapSentences"
+                             android:layout_below="@+id/tableLayout"
+                             android:layout_alignParentLeft="true"
+                             android:layout_alignParentStart="true"
+                             style="@style/PatientDataInputBoxes"
+                             android:hint="@string/patient_city" />
+
+
+
+                     </TableRow>-->
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/patientstatelabel"
+                            style="@style/patientViewLabelStyle"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:gravity="left"
+                            android:paddingLeft="@dimen/pviewpadding"
+                            android:paddingTop="@dimen/ptextviewpadding"
+                            android:text="State : " />
+
+                        <!-- <EditText
+                             android:layout_width="match_parent"
+                             android:layout_height="wrap_content"
+                             android:id="@+id/patientstate"
+                             android:layout_below="@+id/patientcity"
+                             android:layout_alignParentRight="true"
+                             android:layout_alignParentEnd="true"
+                             style="@style/PatientDataInputBoxes"
+                             android:hint="@string/patient_state" />-->
+                        <Spinner
+                            android:id="@+id/patientstate"
+                            style="@style/PatientDataInputBoxes"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right|left"
+                            android:choiceMode="singleChoice"
+                            android:clickable="true"
+                            android:contentDescription="State"
+                            android:contextClickable="true"
+                            android:drawSelectorOnTop="true"
+                            android:entries="@array/patient_state_array"
+                            android:fastScrollAlwaysVisible="true"
+                            android:fastScrollEnabled="true"
+                            android:focusable="true"
+                            android:focusableInTouchMode="true"
+                            android:footerDividersEnabled="false"
+                            android:headerDividersEnabled="false"
+                            android:layoutMode="clipBounds"
+                            android:spinnerMode="dropdown" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/patientcitylabel"
+                            style="@style/patientViewLabelStyle"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:gravity="left"
+                            android:paddingLeft="@dimen/pviewpadding"
+                            android:paddingTop="@dimen/ptextviewpadding"
+                            android:text="City : " />
+
+
+                        <Spinner
+                            android:id="@+id/patientcity"
+                            style="@style/PatientDataInputBoxes"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right|left"
+                            android:choiceMode="singleChoice"
+                            android:clickable="true"
+                            android:contentDescription="City"
+                            android:contextClickable="true"
+                            android:drawSelectorOnTop="true"
+                            android:fastScrollAlwaysVisible="true"
+                            android:fastScrollEnabled="true"
+                            android:focusable="true"
+                            android:focusableInTouchMode="true"
+                            android:footerDividersEnabled="false"
+                            android:headerDividersEnabled="false"
+                            android:layoutMode="clipBounds"
+                            android:spinnerMode="dropdown" />
+
+                    </TableRow>
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <!--Patient Information Layout Ends-->
+
+
+            <!--Parents Information Layout Starts-->
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="05dp"
+                android:layout_marginRight="05dp"
+                android:layout_marginTop="10dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <!-- Heading Text View -->
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/contact_parentsnametile"
+                            style="@style/patientViewHeaderStyle"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="5dp"
+                            android:layout_marginLeft="13dp"
+                            android:layout_marginRight="13dp"
+                            android:layout_marginTop="15dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/textviewroundedcorner"
+                            android:gravity="center"
+                            android:paddingBottom="@dimen/ptextviewpadding"
+                            android:paddingLeft="@dimen/ptextviewpadding"
+                            android:paddingRight="@dimen/ptextviewpadding"
+                            android:paddingTop="@dimen/ptextviewpadding"
+                            android:text="Parents Information" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:visibility="gone">
+
+                        <TextView
+                            android:id="@+id/patientfatherlabel"
+                            style="@style/patientViewLabelStyle"
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:gravity="left"
+                            android:paddingLeft="@dimen/pviewpadding"
+                            android:paddingTop="@dimen/ptextviewpadding"
+                            android:text="Father : " />
+
+                        <EditText
+                            android:id="@+id/fathername"
+                            style="@style/PatientDataInputBoxes"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentStart="true"
+                            android:layout_below="@+id/textView6"
+                            android:hint="@string/p_fathername"
+                            android:inputType="textCapSentences" />
+
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:visibility="gone">
+
+                        <TextView
+                            android:id="@+id/patientmotherlabel"
+                            style="@style/patientViewLabelStyle"
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:gravity="left"
+                            android:paddingLeft="@dimen/pviewpadding"
+                            android:paddingTop="@dimen/ptextviewpadding"
+                            android:text="Mother : " />
+
+                        <EditText
+                            android:id="@+id/mothername"
+                            style="@style/PatientDataInputBoxes"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentStart="true"
+                            android:layout_below="@+id/fathername"
+                            android:hint="@string/p_mothername"
+                            android:inputType="textCapSentences" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/patientmotherheightlabel"
+                            style="@style/patientViewLabelStyle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:gravity="left"
+                            android:paddingLeft="@dimen/pviewpadding"
+                            android:paddingTop="@dimen/ptextviewpadding"
+                            android:text="Father Height(cm) :" />
+
+                        <EditText
+                            android:id="@+id/fatherheight"
+                            style="@style/PatientDataInputBoxes"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentStart="true"
+                            android:layout_below="@+id/mothername"
+                            android:digits="0123456789."
+                            android:gravity="right"
+                            android:hint="@string/p_fatherheight"
+                            android:inputType="numberDecimal"
+                            android:maxLength="6"
+                            android:singleLine="true" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/patientmotherHeightlabel"
+                            style="@style/patientViewLabelStyle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:gravity="left"
+                            android:paddingLeft="@dimen/pviewpadding"
+                            android:paddingTop="@dimen/ptextviewpadding"
+                            android:text="Mother Height(cm) :" />
+
+                        <EditText
+                            android:id="@+id/motherheight"
+                            style="@style/PatientDataInputBoxes"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentStart="true"
+                            android:layout_below="@+id/fatherheight"
+                            android:digits="0123456789."
+                            android:gravity="right"
+                            android:hint="@string/p_motherheight"
+                            android:inputType="numberDecimal"
+                            android:maxLength="6"
+                            android:singleLine="true" />
+
+                    </TableRow>
+
+                    <!-- <TableRow
+                         android:layout_width="match_parent"
+                         android:layout_height="wrap_content">
+                     <Button
+                         android:layout_width="match_parent"
+                         android:layout_height="wrap_content"
+                         android:text="Click For Parental Height"
+                         android:onClick="midParentHeight"
+                         android:id="@+id/calcuulateHieght"
+                         style="@style/btnStyleShak"
+                         android:breakStrategy="balanced"
+                         android:layout_weight="1" />
+                     </TableRow>-->
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/midParentalHeightlabel"
+                            style="@style/patientViewLabelStyle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:gravity="left"
+                            android:paddingLeft="@dimen/pviewpadding"
+                            android:paddingTop="@dimen/ptextviewpadding"
+                            android:text="Mid Parental Height(cm) :" />
+
+                        <EditText
+                            android:id="@+id/midParentalHeight"
+                            style="@style/PatientDataInputBoxes"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentStart="true"
+                            android:layout_below="@+id/motherheight"
+                            android:editable="false"
+                            android:gravity="right" />
+
+                    </TableRow>
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <!--Parents Information Layout Ends-->
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginTop="05dp"
+                android:textAlignment="center">
+
+                <Button
+                    android:id="@+id/patientsavebutton"
+                    style="@style/btnStyleShak"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:breakStrategy="balanced"
+                    android:textStyle="bold"
+                    android:onClick="patientSaveAction"
+                    android:text="Save" />
+
+                <Button
+                    android:id="@+id/patientsavecancelbutton"
+                    style="@style/btnStyleShak"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textStyle="bold"
+                    android:breakStrategy="high_quality"
+                    android:onClick="patientSaveCancelAction"
+                    android:text="Cancel" />
+            </TableRow>
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.goalsr.kidsgrowth.kidsgrowthcharts.ui.PatientGrowthDataInputs">
+
+
+    <!--
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tableLayout2"
+        android:layout_below="@+id/textView7">
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Height Chart"
+                android:id="@+id/viewCharts"
+                android:layout_alignTop="@+id/textView7"
+                android:layout_centerHorizontal="true"
+                android:layout_weight="1"
+                style="@style/btnStyleShak"
+                android:onClick="viewChartsAction" />
+        </TableRow>
+
+    </TableLayout>-->
+
+    <ScrollView
+        android:id="@+id/scrollView4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView5"
+                    style="@style/patientViewHeaderStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center"
+                    android:background="@drawable/textviewroundedcorner"
+                    android:paddingBottom="@dimen/ptextviewpadding"
+                    android:paddingLeft="@dimen/ptextviewpadding"
+                    android:paddingRight="@dimen/ptextviewpadding"
+                    android:paddingTop="@dimen/ptextviewpadding"
+                    android:text="Visit Note"
+                    android:textAlignment="center" />
+
+                <EditText
+                    android:id="@+id/pvisitdate"
+                    style="@style/PatientDataInputBoxes"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/textView5"
+                    android:ems="10"
+                    android:focusableInTouchMode="false"
+                    android:hint="@string/p_visitdate" />
+
+
+
+                <EditText
+                    android:id="@+id/pvisitage"
+                    style="@style/PatientDataInputBoxes"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/pvisitdate"
+                    android:ems="10"
+                    android:hint="@string/p_age"
+                    android:inputType="numberDecimal"
+                    android:singleLine="true" />
+
+                <EditText
+                    android:id="@+id/pheight"
+                    style="@style/PatientDataInputBoxes"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/pvisitdate"
+                    android:ems="10"
+                    android:digits="0123456789."
+                    android:maxLength="6"
+                    android:hint="@string/p_height"
+                    android:inputType="numberDecimal"
+                    android:singleLine="true" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:id="@+id/heightPercentileText"
+                    android:layout_marginLeft="10dp"
+                    android:layout_below="@+id/pheight"
+                    style="@style/PatientDataInputBoxes"
+                    />
+
+
+                <EditText
+                    android:id="@+id/pweight"
+                    style="@style/PatientDataInputBoxes"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/pheight"
+                    android:ems="10"
+                    android:digits="0123456789."
+                    android:maxLength="6"
+                    android:hint="@string/p_weight"
+                    android:inputType="numberDecimal"
+                    android:singleLine="true" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:id="@+id/weightPercentileText"
+                    android:layout_marginLeft="10dp"
+                    android:layout_below="@+id/pweight"
+                    style="@style/PatientDataInputBoxes"
+                    />
+
+                <!--<Button
+                    android:id="@+id/calculateBMI"
+                    style="@style/btnStyleShak"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:breakStrategy="balanced"
+                    android:onClick="calculateBMI"
+                    android:text="Click For BMI" />-->
+
+                <EditText
+                    android:id="@+id/calculateBMIText"
+                    style="@style/PatientDataInputBoxes"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginTop="5dp"
+                    android:editable="false"
+                    android:gravity="left"
+                    android:hint="@string/p_bmi" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:id="@+id/bmiPercentileText"
+                    android:layout_marginLeft="10dp"
+                    android:layout_below="@+id/calculateBMIText"
+                    style="@style/PatientDataInputBoxes"
+                    />
+
+                <EditText
+                    android:id="@+id/pheadcircumference"
+                    style="@style/PatientDataInputBoxes"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/pweight"
+                    android:digits="0123456789."
+                    android:maxLength="6"
+                    android:ems="10"
+                    android:hint="@string/p_headcircumference"
+                    android:inputType="numberDecimal"
+                    android:singleLine="true" />
+
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <Button
+                        android:id="@+id/pdatasave"
+                        style="@style/btnStyleShak"
+                        android:layout_width="wrap_content"
+                        android:layout_height="35dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/pheadcircumference"
+                        android:layout_weight="1"
+                        android:breakStrategy="balanced"
+                        android:onClick="pDataSaveAction"
+                        android:paddingLeft="@dimen/ptextviewpadding"
+                        android:paddingRight="@dimen/ptextviewpadding"
+                        android:text="Save Visit" />
+
+                    <Button
+                        android:id="@+id/pdatacancel"
+                        style="@style/btnStyleShak"
+                        android:layout_width="wrap_content"
+                        android:layout_height="35dp"
+                        android:layout_weight="1"
+                        android:breakStrategy="balanced"
+                        android:onClick="pDataCancelAction"
+                        android:paddingLeft="@dimen/ptextviewpadding"
+                        android:paddingRight="@dimen/ptextviewpadding"
+                        android:text="Cancel" />
+
+                </LinearLayout>
+                <Button
+                    android:id="@+id/pdatacancel1"
+                    style="@style/btnStyleShak"
+                    android:layout_width="fill_parent"
+                    android:layout_height="35dp"
+                    android:layout_weight="1"
+                    android:breakStrategy="balanced"
+                    android:onClick="pDataViewChart"
+                    android:paddingLeft="@dimen/ptextviewpadding"
+                    android:paddingRight="@dimen/ptextviewpadding"
+                    android:text="View Chart" />
+
+            </LinearLayout>
+
+            <!--<LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/custom_txt">
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:text=""
+                    android:layout_below="@+id/pdatasave"
+                    android:id="@+id/emptyview1"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Charts"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:id="@+id/textView7"
+                    android:paddingLeft="@dimen/ptextviewpadding"
+                    android:paddingRight="@dimen/ptextviewpadding"
+                    android:paddingTop="@dimen/ptextviewpadding"
+                    android:paddingBottom="@dimen/ptextviewpadding"
+                    android:layout_below="@+id/emptyview1"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:background="@drawable/textviewroundedcorner"
+                    style="@style/patientViewHeaderStyle"
+
+                    />
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tableLayout2"
+                    android:layout_below="@+id/textView7">
+
+                <TableRow android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+                  &lt;!&ndash;  <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:text=""
+                        />
+                    &ndash;&gt;
+                </TableRow>
+
+                <TableRow android:layout_height="match_parent"
+                    android:layout_width="0dp"
+                    android:layout_marginTop="5dp"
+                    >
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:text="Height Weight Head"
+                    android:onClick="weightChartAction"
+                    android:id="@+id/weightChart"
+                    android:layout_below="@+id/tableLayout2"
+                    android:layout_alignLeft="@+id/tableLayout2"
+                    android:layout_alignStart="@+id/tableLayout2"
+                    style="@style/btnStyleShak"
+                    android:layout_weight="1"
+                    />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:text="Weight for Height"
+                    android:id="@+id/button2"
+                    android:layout_below="@+id/tableLayout2"
+                    android:layout_toRightOf="@+id/weightChart"
+                    android:layout_toEndOf="@+id/weightChart"
+                    style="@style/btnStyleShak"
+                    android:onClick="weightForHeightAction"
+                    android:layout_weight="1"
+                    />
+
+                    </TableRow>
+                    <TableRow android:layout_height="match_parent"
+                        android:layout_width="0dp"
+                        android:layout_marginTop="5dp">
+                        <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="45dp"
+                            android:text="IAP 5-18 Height-Weight"
+                            android:id="@+id/button3"
+                            android:layout_below="@+id/weightChart"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentStart="true"
+                            style="@style/btnStyleShak"
+                            android:onClick="iapFiveToEighteenHeightWeightAction"
+                            android:layout_weight="1"
+                            />
+
+                        <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="45dp"
+                            android:text="IAP 5-18 BMI"
+                            android:id="@+id/button4"
+                            style="@style/btnStyleShak"
+                            android:onClick="iapFiveToEighteenBMIAction"
+                            android:layout_below="@+id/button2"
+                            android:layout_alignRight="@+id/button2"
+                            android:layout_alignEnd="@+id/button2"
+                            android:layout_weight="1"
+                            />
+                </TableRow>
+                </TableLayout>
+            </LinearLayout>-->
+        </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </ScrollView>
+</RelativeLayout>

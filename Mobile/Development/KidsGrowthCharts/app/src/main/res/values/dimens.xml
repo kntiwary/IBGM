@@ -1,0 +1,31 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <!-- Define some key view padding values. This is useful because the values can be used in
+         multiple views and changed from one central location. It also gives us the ability to
+         provide alternate values for different device configurations using resource directory
+         qualifiers. -->
+    <dimen name="padding">16dp</dimen>
+    <dimen name="listview_item_padding">16dp</dimen>
+
+    <!-- for Patient View-->
+    <dimen name="pviewpadding">16dp</dimen>
+    <dimen name="ptextviewpadding">5dp</dimen>
+    <dimen name="pviewtoppadding">5dp</dimen>
+
+    <!-- Per the design guidelines, navigation drawers should be between 240dp and 320dp:
+         https://developer.android.com/design/patterns/navigation-drawer.html -->
+    <dimen name="navigation_drawer_width">240dp</dimen>
+
+    <item name="othvalues" format="string" type="dimen">
+        44.9251, 47.97812, 52.19859, 55.26322, 57.73049, 59.82569, 61.66384, 63.31224, 64.81395,
+        66.19833, 67.48635, 68.6936, 69.832, 70.91088, 71.9377, 72.91853, 73.85839, 74.76147,
+        75.63132, 76.47096, 77.283, 78.06971, 78.83308, 79.57485,
+        80.29656, 80.99959, 81.74464, 82.47365, 83.18812, 83.88931, 84.57826, 85.25589, 85.92294,
+        86.58009, 87.22791, 87.86696, 88.49774
+    </item>
+
+</resources>

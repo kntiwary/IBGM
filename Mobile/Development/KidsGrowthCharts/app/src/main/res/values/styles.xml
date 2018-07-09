@@ -1,0 +1,138 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme1" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <!--<item name="colorAccent">@color/colorAccent</item>-->
+    </style>
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+	
+	<style name="AppTheme" parent="@android:style/Theme"/>
+
+    <style name="ContactListView">
+        <item name="android:verticalScrollbarPosition">right</item>
+        <item name="android:fastScrollAlwaysVisible">true</item>
+        <item name="android:scrollbarStyle">outsideInset</item>
+    </style>
+
+    <style name="listViewActivatedStyle"/>
+
+    <style name="quickContactBadgeStyle">
+        <item name="android:background">@drawable/quickcontact_badge_small</item>
+    </style>
+
+    <style name="searchTextHiglight">
+        <item name="android:textColor">@color/holo_blue</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+
+    <style name="addressHeader" parent="@android:style/TextAppearance.Small">
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="addressDetail" parent="@android:style/TextAppearance.Medium">
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textIsSelectable">true</item>
+    </style>
+
+    <style name="contactNameTitle" parent="@android:style/TextAppearance.Large">
+        <item name="android:textSize">38sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textIsSelectable">true</item>
+    </style>
+
+    <!--- View Patient Styles-->
+
+    <style name="patientViewHeaderStyle">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">verdana</item>
+        <item name="android:textIsSelectable">false</item>
+        <item name="android:textColor">#fdfdfd</item>
+    </style>
+
+    <style name="patientViewLabelStyle">
+        <item name="android:textSize">15sp</item>
+        <item name="android:fontFamily">verdana</item>
+        <item name="android:textIsSelectable">false</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="patientViewTextStyle">
+        <item name="android:textSize">15sp</item>
+        <item name="android:fontFamily">verdana</item>
+        <item name="android:textIsSelectable">false</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+
+    <style name="addressButton"/>
+
+    <style name="PatientDataStyle" parent="@android:style/TextAppearance.Medium">
+        <item name="android:fontFamily">verdana</item>
+
+        <item name="android:textSize">15dp</item>
+    </style>
+
+    <style name="PatientDataInputBoxes">
+        <item name="android:layout_marginLeft">2dp</item>
+        <item name="android:layout_marginTop">2dp</item>
+        <item name="android:layout_marginBottom">2dp</item>
+        <item name="android:layout_marginRight">2dp</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:ellipsize">start</item>
+        <item name="android:gravity">left</item>
+        <item name="android:fontFamily">calibari</item>
+        <item name="android:textSize">15dp</item>
+    </style>
+
+    <style name="CodeFont" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#d3d5c9</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
+
+    </style>
+
+    <style name="btnStyleShakold" parent="@android:style/Widget.Button">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:gravity">center</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">0.6</item>
+        <item name="android:background">@drawable/custombutton</item>
+        <item name="android:padding">8dip</item>
+    </style>
+
+    <style name="btnStyleShak" parent="@android:style/Widget.Button">
+        <item name="android:textSize">14dp</item>
+        <item name="android:layout_margin">2dp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#5d6153</item>
+        <item name="android:gravity">center</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">0.6</item>
+        <item name="android:background">@drawable/action_button_background</item>
+<!--        <item name="android:padding">2dp</item>-->
+    </style>
+
+
+</resources>

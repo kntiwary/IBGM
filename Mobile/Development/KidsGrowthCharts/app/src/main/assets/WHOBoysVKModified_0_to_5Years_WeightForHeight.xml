@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WHOBoysVKModified_0_to_5Years_WeightForHeight>
+      <Month MonthName="45">
+         <FirstPercentile>1.9</FirstPercentile>
+         <ThirdPercentile>2.1</ThirdPercentile>
+         <FiftyathPercentile>2.4</FiftyathPercentile>
+         <NinetySeventhPercentile>3.3</NinetySeventhPercentile>
+      </Month>
+      <Month MonthName="50">
+          <FirstPercentile>2.6</FirstPercentile>
+         <ThirdPercentile>2.8</ThirdPercentile>
+         <FiftyathPercentile>3.3</FiftyathPercentile>
+         <NinetySeventhPercentile>4.4</NinetySeventhPercentile>
+      </Month>
+      <Month MonthName="55">
+          <FirstPercentile>3.5</FirstPercentile>
+         <ThirdPercentile>3.9</ThirdPercentile>
+         <FiftyathPercentile>4.5</FiftyathPercentile>
+         <NinetySeventhPercentile>6</NinetySeventhPercentile>
+      </Month>
+      <Month MonthName="60">
+          <FirstPercentile>4.7</FirstPercentile>
+         <ThirdPercentile>5.1</ThirdPercentile>
+         <FiftyathPercentile>6</FiftyathPercentile>
+         <NinetySeventhPercentile>7.8</NinetySeventhPercentile>
+      </Month>
+      <Month MonthName="65">
+          <FirstPercentile>5.7</FirstPercentile>
+        <ThirdPercentile>6.3</ThirdPercentile>
+        <FiftyathPercentile>7.3</FiftyathPercentile>
+        <NinetySeventhPercentile>9.5</NinetySeventhPercentile>
+      </Month>
+    <Month MonthName="70">
+        <FirstPercentile>6.6</FirstPercentile>
+        <ThirdPercentile>7.2</ThirdPercentile>
+        <FiftyathPercentile>8.4</FiftyathPercentile>
+        <NinetySeventhPercentile>11</NinetySeventhPercentile>
+    </Month>
+    <Month MonthName="75">
+        <FirstPercentile>7.4</FirstPercentile>
+        <ThirdPercentile>8.2</ThirdPercentile>
+        <FiftyathPercentile>9.5</FiftyathPercentile>
+        <NinetySeventhPercentile>12.4</NinetySeventhPercentile>
+    </Month>
+    <Month MonthName="80">
+        <FirstPercentile>8.2</FirstPercentile>
+        <ThirdPercentile>9</ThirdPercentile>
+        <FiftyathPercentile>10.4</FiftyathPercentile>
+        <NinetySeventhPercentile>13.7</NinetySeventhPercentile>
+    </Month>
+    <Month MonthName="85">
+        <FirstPercentile>9</FirstPercentile>
+        <ThirdPercentile>9.9</ThirdPercentile>
+        <FiftyathPercentile>11.5</FiftyathPercentile>
+        <NinetySeventhPercentile>15</NinetySeventhPercentile>
+    </Month>
+    <Month MonthName="90">
+        <FirstPercentile>10</FirstPercentile>
+        <ThirdPercentile>11</ThirdPercentile>
+        <FiftyathPercentile>12.7</FiftyathPercentile>
+        <NinetySeventhPercentile>16.5</NinetySeventhPercentile>
+    </Month>
+    <Month MonthName="95">
+        <FirstPercentile>10.9</FirstPercentile>
+        <ThirdPercentile>12</ThirdPercentile>
+        <FiftyathPercentile>13.9</FiftyathPercentile>
+        <NinetySeventhPercentile>18</NinetySeventhPercentile>
+    </Month>
+    <Month MonthName="100">
+        <FirstPercentile>11.9</FirstPercentile>
+        <ThirdPercentile>13</ThirdPercentile>
+        <FiftyathPercentile>15.2</FiftyathPercentile>
+        <NinetySeventhPercentile>19.8</NinetySeventhPercentile>
+    </Month>
+    <Month MonthName="105">
+        <FirstPercentile>13</FirstPercentile>
+        <ThirdPercentile>14.2</ThirdPercentile>
+        <FiftyathPercentile>16.6</FiftyathPercentile>
+        <NinetySeventhPercentile>21.9</NinetySeventhPercentile>
+    </Month>
+    <Month MonthName="110">
+        <FirstPercentile>14.1</FirstPercentile>
+        <ThirdPercentile>15.6</ThirdPercentile>
+        <FiftyathPercentile>18.3</FiftyathPercentile>
+        <NinetySeventhPercentile>24.3</NinetySeventhPercentile>
+    </Month>
+</WHOBoysVKModified_0_to_5Years_WeightForHeight>

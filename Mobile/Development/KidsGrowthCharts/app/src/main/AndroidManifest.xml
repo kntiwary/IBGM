@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  Copyright (C) 2013 The Android Open Source Project
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.goalsr.kidsgrowth.kidsgrowthcharts"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="25" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_CALL_LOG" />
+
+    <application
+        android:allowBackup="true"
+        android:description="@string/app_description"
+        android:icon="@drawable/chm_logo_graph"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+
+        <!--
+             When the soft keyboard is showing the views of this activity should be resized in the
+             remaining space so that inline searching can take place without having to dismiss the
+             keyboard to see all the content. Therefore windowSoftInputMode is set to
+             adjustResize.
+        -->
+        <activity
+            android:name=".ui.PatientsListActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize">
+
+            <!--
+                 Add intent-filter for search intent action and specify searchable configuration
+                 via meta-data tag. This allows this activity to receive search intents via the
+                 system hooks. In this sample this is only used on older OS versions (pre-Honeycomb)
+                 via the activity search dialog. See the Search API guide for more information:
+                 http://developer.android.com/guide/topics/search/search-dialog.html
+            -->
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable_contacts" />
+        </activity>
+        <activity
+            android:name=".ui.PatientDetailActivity"
+            android:label="Patient Details"
+            android:parentActivityName=".ui.PatientsListActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden">
+
+            <!--
+                 Define hierarchical parent of this activity, both via the system
+                 parentActivityName attribute (added in API Level 16) and via meta-data annotation.
+                 This allows use of the support library NavUtils class in a way that works over
+                 all Android versions. See the "Tasks and Back Stack" guide for more information:
+                 http://developer.android.com/guide/components/tasks-and-back-stack.html
+            -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ui.PatientsListActivity" />
+        </activity>
+        <activity
+            android:name=".ui.PatientInformation"
+            android:label="Patient Information"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".ui.PatientBasicInputs"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".ui.PatientGrowthDataInputs"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".ui.charts.ChartLayout"
+          />
+        <activity
+            android:name=".ui.ChartOptions"
+            android:screenOrientation="portrait"
+        />
+        <activity
+            android:name=".ui.CHM_Flash"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.SyncData"
+            android:screenOrientation="portrait">
+            </activity>
+        <activity android:name=".ui.OptionActivity"
+            android:screenOrientation="portrait"></activity>
+    </application>
+
+</manifest>

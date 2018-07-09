@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WHOGirlsVKModified_0_to_5Years_Weight>
+	<Month MonthName="0">
+		<FirstPercentile>2.3</FirstPercentile>
+		<ThirdPercentile>2.4</ThirdPercentile>
+		<FiftyathPercentile>3.2</FiftyathPercentile>
+		<NinetySeventhPercentile>4.2</NinetySeventhPercentile>
+	</Month>
+	<Month MonthName="1">
+		<FirstPercentile>3</FirstPercentile>
+		<ThirdPercentile>3.2</ThirdPercentile>
+		<FiftyathPercentile>4.2</FiftyathPercentile>
+		<NinetySeventhPercentile>5.4</NinetySeventhPercentile>
+	</Month>
+	<Month MonthName="2">
+		<FirstPercentile>3.8</FirstPercentile>
+		<ThirdPercentile>4</ThirdPercentile>
+		<FiftyathPercentile>5.1</FiftyathPercentile>
+		<NinetySeventhPercentile>6.5</NinetySeventhPercentile>
+	</Month>
+	<Month MonthName="3">
+		<FirstPercentile>4.4</FirstPercentile>
+		<ThirdPercentile>4.6</ThirdPercentile>
+		<FiftyathPercentile>5.8</FiftyathPercentile>
+		<NinetySeventhPercentile>7.4</NinetySeventhPercentile>
+	</Month>
+	<Month MonthName="4">
+		<FirstPercentile>4.8</FirstPercentile>
+		<ThirdPercentile>5.1</ThirdPercentile>
+		<FiftyathPercentile>6.4</FiftyathPercentile>
+		<NinetySeventhPercentile>8.1</NinetySeventhPercentile>
+	</Month>
+	<Month MonthName="5">
+		<FirstPercentile>5.2</FirstPercentile>
+		<ThirdPercentile>5.5</ThirdPercentile>
+		<FiftyathPercentile>6.9</FiftyathPercentile>
+		<NinetySeventhPercentile>8.7</NinetySeventhPercentile>
+	</Month>
+	<Month MonthName="6">
+		<FirstPercentile>5.5</FirstPercentile>
+		<ThirdPercentile>5.8</ThirdPercentile>
+		<FiftyathPercentile>7.3</FiftyathPercentile>
+		<NinetySeventhPercentile>9.2</NinetySeventhPercentile>
+	</Month>
+	<Month MonthName="7">
+		<FirstPercentile>5.8</FirstPercentile>
+		<ThirdPercentile>6.1</ThirdPercentile>
+		<FiftyathPercentile>7.6</FiftyathPercentile>
+		<NinetySeventhPercentile>9.6</NinetySeventhPercentile>
+	</Month>
+	<Month MonthName="8">
+		<FirstPercentile>6</FirstPercentile>
+		<ThirdPercentile>6.3</ThirdPercentile>
+		<FiftyathPercentile>7.9</FiftyathPercentile>
+		<NinetySeventhPercentile>10</NinetySeventhPercentile>
+	</Month>
+	<Month MonthName="9">
+		<FirstPercentile>6.2</FirstPercentile>
+		<ThirdPercentile>6.6</ThirdPercentile>
+		<FiftyathPercentile>8.2</FiftyathPercentile>
+		<NinetySeventhPercentile>10.4</NinetySeventhPercentile>
+	</Month>
+	<Month MonthName="10">
+		<FirstPercentile>6.4</FirstPercentile>
+		<ThirdPercentile>6.8</ThirdPercentile>
+		<FiftyathPercentile>8.5</FiftyathPercentile>
+		<NinetySeventhPercentile>10.7</NinetySeventhPercentile>
+	</Month>
+	<Month MonthName="11">
+		<FirstPercentile>6.6</FirstPercentile>
+		<ThirdPercentile>7</ThirdPercentile>
+		<FiftyathPercentile>8.7</FiftyathPercentile>
+		<NinetySeventhPercentile>11</NinetySeventhPercentile>
+	</Month>
+	<Month MonthName="12">
+		<FirstPercentile>6.8</FirstPercentile>
+		<ThirdPercentile>7.1</ThirdPercentile>
+		<FiftyathPercentile>8.9</FiftyathPercentile>
+		<NinetySeventhPercentile>11.3</NinetySeventhPercentile>
+	</Month>
+	<Month MonthName="13">
+		<FirstPercentile>6.9</FirstPercentile>
+		<ThirdPercentile>7.3</ThirdPercentile>
+		<FiftyathPercentile>9.2</FiftyathPercentile>
+		<NinetySeventhPercentile>11.6</NinetySeventhPercentile>
+	</Month>
+	<Month MonthName="14">
+		<FirstPercentile>7.1</FirstPercentile>
+		<ThirdPercentile>7.5</ThirdPercentile>
+		<FiftyathPercentile>9.4</FiftyathPercentile>
+		<NinetySeventhPercentile>11.9</NinetySeventhPercentile>
+	</Month>
+	<Month MonthName="15">
+		<FirstPercentile>7.3</FirstPercentile>
+		<ThirdPercentile>7.7</ThirdPercentile>
+		<FiftyathPercentile>9.6</FiftyathPercentile>
+		<NinetySeventhPercentile>12.2</NinetySeventhPercentile>
+	</Month>
+	<Month MonthName="16">
+		<FirstPercentile>7.4</FirstPercentile>
+		<ThirdPercentile>7.8</ThirdPercentile>
+		<FiftyathPercentile>9.8</FiftyathPercentile>
+		<NinetySeventhPercentile>12.5</NinetySeventhPercentile>
+	</Month>
+	<Month MonthName="17">
+		<FirstPercentile>7.6</FirstPercentile>
+		<ThirdPercentile>8</ThirdPercentile>
+		<FiftyathPercentile>10</FiftyathPercentile>
+		<NinetySeventhPercentile>12.7</NinetySeventhPercentile>
+	</Month>
+	<Month MonthName="18">
+		<FirstPercentile>7.8</FirstPercentile>
+		<ThirdPercentile>8.2</ThirdPercentile>
+		<FiftyathPercentile>10.2</FiftyathPercentile>
+		<NinetySeventhPercentile>13</NinetySeventhPercentile>
+	</Month>
+	<Month MonthName="19">
+		<FirstPercentile>7.9</FirstPercentile>
+		<ThirdPercentile>8.3</ThirdPercentile>
+		<FiftyathPercentile>10.4</FiftyathPercentile>
+		<NinetySeventhPercentile>13.3</NinetySeventhPercentile>
+	</Month>
+	<Month MonthName="20">
+		<FirstPercentile>8.1</FirstPercentile>
+		<ThirdPercentile>8.5</ThirdPercentile>
+		<FiftyathPercentile>10.6</FiftyathPercentile>
+		<NinetySeventhPercentile>13.5</NinetySeventhPercentile>
+	</Month>
+	<Month MonthName="21">
+		<FirstPercentile>8.2</FirstPercentile>
+		<ThirdPercentile>8.7</ThirdPercentile>
+		<FiftyathPercentile>10.9</FiftyathPercentile>
+		<NinetySeventhPercentile>13.8</NinetySeventhPercentile>
+	</Month>
+	<Month MonthName="22">
+		<FirstPercentile>8.4</FirstPercentile>
+		<ThirdPercentile>8.8</ThirdPercentile>
+		<FiftyathPercentile>11.1</FiftyathPercentile>
+		<NinetySeventhPercentile>14.1</NinetySeventhPercentile>
+	</Month>
+	<Month MonthName="23">
+		<FirstPercentile>8.5</FirstPercentile>
+		<ThirdPercentile>9</ThirdPercentile>
+		<FiftyathPercentile>11.3</FiftyathPercentile>
+		<NinetySeventhPercentile>14.3</NinetySeventhPercentile>
+	</Month>
+	<Month MonthName="24">
+		<FirstPercentile>8.7</FirstPercentile>
+		<ThirdPercentile>9.2</ThirdPercentile>
+		<FiftyathPercentile>11.5</FiftyathPercentile>
+		<NinetySeventhPercentile>14.6</NinetySeventhPercentile>
+	</Month>
+	<Month MonthName="25">
+		<FirstPercentile>8.9</FirstPercentile>
+		<ThirdPercentile>9.3</ThirdPercentile>
+		<FiftyathPercentile>11.7</FiftyathPercentile>
+		<NinetySeventhPercentile>14.9</NinetySeventhPercentile>
+	</Month>
+	<Month MonthName="26">
+		<FirstPercentile>9</FirstPercentile>
+		<ThirdPercentile>9.5</ThirdPercentile>
+		<FiftyathPercentile>11.9</FiftyathPercentile>
+		<NinetySeventhPercentile>15.2</NinetySeventhPercentile>
+	</Month>
+	<Month MonthName="27">
+		<FirstPercentile>9.2</FirstPercentile>
+		<ThirdPercentile>9.6</ThirdPercentile>
+		<FiftyathPercentile>12.1</FiftyathPercentile>
+		<NinetySeventhPercentile>15.4</NinetySeventhPercentile>
+	</Month>
+	<Month MonthName="28">
+		<FirstPercentile>9.3</FirstPercentile>
+		<ThirdPercentile>9.8</ThirdPercentile>
+		<FiftyathPercentile>12.3</FiftyathPercentile>
+		<NinetySeventhPercentile>15.7</NinetySeventhPercentile>
+	</Month>
+	<Month MonthName="29">
+		<FirstPercentile>9.5</FirstPercentile>
+		<ThirdPercentile>10</ThirdPercentile>
+		<FiftyathPercentile>12.5</FiftyathPercentile>
+		<NinetySeventhPercentile>16</NinetySeventhPercentile>
+	</Month>
+	<Month MonthName="30">
+		<FirstPercentile>9.6</FirstPercentile>
+		<ThirdPercentile>10.1</ThirdPercentile>
+		<FiftyathPercentile>12.7</FiftyathPercentile>
+		<NinetySeventhPercentile>16.2</NinetySeventhPercentile>
+	</Month>
+	<Month MonthName="31">
+		<FirstPercentile>9.7</FirstPercentile>
+		<ThirdPercentile>10.3</ThirdPercentile>
+		<FiftyathPercentile>12.9</FiftyathPercentile>
+		<NinetySeventhPercentile>16.5</NinetySeventhPercentile>
+	</Month>
+	<Month MonthName="32">
+		<FirstPercentile>9.9</FirstPercentile>
+		<ThirdPercentile>10.4</ThirdPercentile>
+		<FiftyathPercentile>13.1</FiftyathPercentile>
+		<NinetySeventhPercentile>16.8</NinetySeventhPercentile>
+	</Month>
+	<Month MonthName="33">
+		<FirstPercentile>10</FirstPercentile>
+		<ThirdPercentile>10.5</ThirdPercentile>
+		<FiftyathPercentile>13.3</FiftyathPercentile>
+		<NinetySeventhPercentile>17</NinetySeventhPercentile>
+	</Month>
+	<Month MonthName="34">
+		<FirstPercentile>10.1</FirstPercentile>
+		<ThirdPercentile>10.7</ThirdPercentile>
+		<FiftyathPercentile>13.5</FiftyathPercentile>
+		<NinetySeventhPercentile>17.3</NinetySeventhPercentile>
+	</Month>
+	<Month MonthName="35">
+		<FirstPercentile>10.3</FirstPercentile>
+		<ThirdPercentile>10.8</ThirdPercentile>
+		<FiftyathPercentile>13.7</FiftyathPercentile>
+		<NinetySeventhPercentile>17.6</NinetySeventhPercentile>
+	</Month>
+	<Month MonthName="36">
+		<FirstPercentile>10.4</FirstPercentile>
+		<ThirdPercentile>11</ThirdPercentile>
+		<FiftyathPercentile>13.9</FiftyathPercentile>
+		<NinetySeventhPercentile>17.8</NinetySeventhPercentile>
+	</Month>
+	<Month MonthName="37">
+		<FirstPercentile>10.5</FirstPercentile>
+		<ThirdPercentile>11.1</ThirdPercentile>
+		<FiftyathPercentile>14</FiftyathPercentile>
+		<NinetySeventhPercentile>18.1</NinetySeventhPercentile>
+	</Month>
+	<Month MonthName="38">
+		<FirstPercentile>10.6</FirstPercentile>
+		<ThirdPercentile>11.2</ThirdPercentile>
+		<FiftyathPercentile>14.2</FiftyathPercentile>
+		<NinetySeventhPercentile>18.4</NinetySeventhPercentile>
+	</Month>
+	<Month MonthName="39">
+		<FirstPercentile>10.8</FirstPercentile>
+		<ThirdPercentile>11.4</ThirdPercentile>
+		<FiftyathPercentile>14.4</FiftyathPercentile>
+		<NinetySeventhPercentile>18.6</NinetySeventhPercentile>
+	</Month>
+	<Month MonthName="40">
+		<FirstPercentile>10.9</FirstPercentile>
+		<ThirdPercentile>11.5</ThirdPercentile>
+		<FiftyathPercentile>14.6</FiftyathPercentile>
+		<NinetySeventhPercentile>18.9</NinetySeventhPercentile>
+	</Month>
+	<Month MonthName="41">
+		<FirstPercentile>11</FirstPercentile>
+		<ThirdPercentile>11.6</ThirdPercentile>
+		<FiftyathPercentile>14.8</FiftyathPercentile>
+		<NinetySeventhPercentile>19.2</NinetySeventhPercentile>
+	</Month>
+	<Month MonthName="42">
+		<FirstPercentile>11.1</FirstPercentile>
+		<ThirdPercentile>11.8</ThirdPercentile>
+		<FiftyathPercentile>15</FiftyathPercentile>
+		<NinetySeventhPercentile>19.5</NinetySeventhPercentile>
+	</Month>
+	<Month MonthName="43">
+		<FirstPercentile>11.3</FirstPercentile>
+		<ThirdPercentile>11.9</ThirdPercentile>
+		<FiftyathPercentile>15.2</FiftyathPercentile>
+		<NinetySeventhPercentile>19.7</NinetySeventhPercentile>
+	</Month>
+	<Month MonthName="44">
+		<FirstPercentile>11.4</FirstPercentile>
+		<ThirdPercentile>12</ThirdPercentile>
+		<FiftyathPercentile>15.3</FiftyathPercentile>
+		<NinetySeventhPercentile>20</NinetySeventhPercentile>
+	</Month>
+	<Month MonthName="45">
+		<FirstPercentile>11.5</FirstPercentile>
+		<ThirdPercentile>12.1</ThirdPercentile>
+		<FiftyathPercentile>15.5</FiftyathPercentile>
+		<NinetySeventhPercentile>20.3</NinetySeventhPercentile>
+	</Month>
+	<Month MonthName="46">
+		<FirstPercentile>11.6</FirstPercentile>
+		<ThirdPercentile>12.3</ThirdPercentile>
+		<FiftyathPercentile>15.7</FiftyathPercentile>
+		<NinetySeventhPercentile>20.6</NinetySeventhPercentile>
+	</Month>
+	<Month MonthName="47">
+		<FirstPercentile>11.7</FirstPercentile>
+		<ThirdPercentile>12.4</ThirdPercentile>
+		<FiftyathPercentile>15.9</FiftyathPercentile>
+		<NinetySeventhPercentile>20.8</NinetySeventhPercentile>
+	</Month>
+	<Month MonthName="48">
+		<FirstPercentile>11.8</FirstPercentile>
+		<ThirdPercentile>12.5</ThirdPercentile>
+		<FiftyathPercentile>16.1</FiftyathPercentile>
+		<NinetySeventhPercentile>21.1</NinetySeventhPercentile>
+	</Month>
+	<Month MonthName="49">
+		<FirstPercentile>11.9</FirstPercentile>
+		<ThirdPercentile>12.6</ThirdPercentile>
+		<FiftyathPercentile>16.3</FiftyathPercentile>
+		<NinetySeventhPercentile>21.4</NinetySeventhPercentile>
+	</Month>
+	<Month MonthName="50">
+		<FirstPercentile>12.1</FirstPercentile>
+		<ThirdPercentile>12.8</ThirdPercentile>
+		<FiftyathPercentile>16.4</FiftyathPercentile>
+		<NinetySeventhPercentile>21.7</NinetySeventhPercentile>
+	</Month>
+	<Month MonthName="51">
+		<FirstPercentile>12.2</FirstPercentile>
+		<ThirdPercentile>12.9</ThirdPercentile>
+		<FiftyathPercentile>16.6</FiftyathPercentile>
+		<NinetySeventhPercentile>22</NinetySeventhPercentile>
+	</Month>
+	<Month MonthName="52">
+		<FirstPercentile>12.3</FirstPercentile>
+		<ThirdPercentile>13</ThirdPercentile>
+		<FiftyathPercentile>16.8</FiftyathPercentile>
+		<NinetySeventhPercentile>22.2</NinetySeventhPercentile>
+	</Month>
+	<Month MonthName="53">
+		<FirstPercentile>12.4</FirstPercentile>
+		<ThirdPercentile>13.1</ThirdPercentile>
+		<FiftyathPercentile>17</FiftyathPercentile>
+		<NinetySeventhPercentile>22.5</NinetySeventhPercentile>
+	</Month>
+	<Month MonthName="54">
+		<FirstPercentile>12.5</FirstPercentile>
+		<ThirdPercentile>13.2</ThirdPercentile>
+		<FiftyathPercentile>17.2</FiftyathPercentile>
+		<NinetySeventhPercentile>22.8</NinetySeventhPercentile>
+	</Month>
+	<Month MonthName="55">
+		<FirstPercentile>12.6</FirstPercentile>
+		<ThirdPercentile>13.4</ThirdPercentile>
+		<FiftyathPercentile>17.3</FiftyathPercentile>
+		<NinetySeventhPercentile>23.1</NinetySeventhPercentile>
+	</Month>
+	<Month MonthName="56">
+		<FirstPercentile>12.7</FirstPercentile>
+		<ThirdPercentile>13.5</ThirdPercentile>
+		<FiftyathPercentile>17.5</FiftyathPercentile>
+		<NinetySeventhPercentile>23.3</NinetySeventhPercentile>
+	</Month>
+	<Month MonthName="57">
+		<FirstPercentile>12.8</FirstPercentile>
+		<ThirdPercentile>13.6</ThirdPercentile>
+		<FiftyathPercentile>17.7</FiftyathPercentile>
+		<NinetySeventhPercentile>23.6</NinetySeventhPercentile>
+	</Month>
+	<Month MonthName="58">
+		<FirstPercentile>12.9</FirstPercentile>
+		<ThirdPercentile>13.7</ThirdPercentile>
+		<FiftyathPercentile>17.9</FiftyathPercentile>
+		<NinetySeventhPercentile>23.9</NinetySeventhPercentile>
+	</Month>
+	<Month MonthName="59">
+		<FirstPercentile>13.1</FirstPercentile>
+		<ThirdPercentile>13.8</ThirdPercentile>
+		<FiftyathPercentile>18</FiftyathPercentile>
+		<NinetySeventhPercentile>24.2</NinetySeventhPercentile>
+	</Month>
+	<Month MonthName="60">
+		<FirstPercentile>13.2</FirstPercentile>
+		<ThirdPercentile>14</ThirdPercentile>
+		<FiftyathPercentile>18.2</FiftyathPercentile>
+		<NinetySeventhPercentile>24.4</NinetySeventhPercentile>
+	</Month>
+</WHOGirlsVKModified_0_to_5Years_Weight>

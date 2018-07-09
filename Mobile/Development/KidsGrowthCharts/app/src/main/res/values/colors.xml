@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3b4db1</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <!--<color name="colorAccent">#FF4081</color>-->
+    <color name="holo_blue">#FF33B5E5</color>
+    <color name="skyblue">#82b0dc</color>
+    <color name="pink">#f987ae</color>
+    <color name="black">#080808</color>
+    <color name="appcolor">#ade1f4</color>
+    <color name="menu_focused">#f1edee</color>
+    <color name="common_border_color">#4d98d2</color>
+</resources>

@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.goalsr.kidsgrowth.kidsgrowthcharts.ui.charts.ChartsMain"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/action_settings"
+        android:title="@string/chart"
+        android:icon="@android:drawable/ic_menu_save"
+        app:showAsAction="always" />
+
+
+</menu>
