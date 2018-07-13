@@ -1,7 +1,11 @@
 package com.goalsr.kidsgrowth.kidsgrowthcharts.ui;
 
+
 import android.app.Activity;
 import android.app.AlertDialog;
+
+
+import com.mikhaellopez.lazydatepicker.LazyDatePicker;
 
 
 import android.app.DatePickerDialog;
@@ -47,11 +51,20 @@ import java.util.Date;
 import java.util.Locale;
 import java.util.UUID;
 
+
 import com.goalsr.kidsgrowth.kidsgrowthcharts.db.DataBaseHelper;
 import com.goalsr.kidsgrowth.kidsgrowthcharts.db.DBFeedReaderContract;
 import com.goalsr.kidsgrowth.kidsgrowthcharts.util.DateUtils;
 
 import com.goalsr.kidsgrowth.kidsgrowthcharts.util.SharedValues;
+
+
+
+
+
+
+
+
 
 
 
@@ -70,6 +83,8 @@ public class PatientBasicInputs extends Activity implements View.OnClickListener
     private String date1;
     private SimpleDateFormat dateFormatter;
 
+    private static final String DATE_FORMAT = "MM-dd-yyyy";
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -79,6 +94,66 @@ public class PatientBasicInputs extends Activity implements View.OnClickListener
         //For Validaitons at fieldlevel
         // Setting custom drawable instead of red error indicator,
         error_indicator = getResources().getDrawable(R.drawable.popup_inline_error);
+
+//        Date minDate = LazyDatePicker.stringToDate("01-01-2016", DATE_FORMAT);
+        Calendar cal = Calendar.getInstance();
+        cal.add(Calendar.YEAR, -18);
+
+//        Date minDate =cal.getTime();
+//        Date maxDate =Calendar.getInstance().getTime();
+
+
+
+
+        Date minDate = LazyDatePicker.stringToDate(cal.getTime().toString(), DATE_FORMAT);
+        System.out.println("minDate " + minDate);
+
+        Date maxDate = LazyDatePicker.stringToDate(Calendar.getInstance().getTime().toString(), DATE_FORMAT);
+        System.out.println("maxDate " + maxDate);
+
+
+
+
+
+
+
+
+
+
+
+        // Init LazyDatePicker
+        LazyDatePicker lazyDatePicker = (LazyDatePicker)findViewById(R.id.lazyDate);
+        lazyDatePicker.setDateFormat(LazyDatePicker.DateFormat.MM_DD_YYYY);
+        lazyDatePicker.setMinDate(minDate);
+        lazyDatePicker.setMaxDate(maxDate);
+
+        lazyDatePicker.setOnDatePickListener(new LazyDatePicker.OnDatePickListener() {
+            @Override
+            public void onDatePick(Date dateSelected) {
+                Calendar newDate = Calendar.getInstance();
+                date1 = dateFormatter.format(newDate.getTime());
+                // Toast.makeText(getApplicationContext(), "date1 String :" + date1, Toast.LENGTH_SHORT).show();
+                try {
+                    Date dateOfBo = dateFormatter.parse(date1);
+                    getAge(dateOfBo);
+                    System.out.println("age " + getAge(dateOfBo));
+                    pdob.setText(dateFormatter.format(dateOfBo));
+
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+
+            }
+        });
+
+
+
+
+
+
+
+
+
 
         int left = 0;
         int top = 0;

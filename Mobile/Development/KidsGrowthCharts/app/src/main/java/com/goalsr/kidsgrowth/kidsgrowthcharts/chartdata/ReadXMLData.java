@@ -80,7 +80,7 @@ public class ReadXMLData {
 
 
                     if(gender == "WHOBoys" &&  xmlType == "BMI_0_to_18_Years_BMI.xml"){
-                        XPathExpression xpr  = xPath.compile("/WHOGirls_0_to_18_Height/Year[@YearName = '" + age + "']");
+                        XPathExpression xpr  = xPath.compile("/WHOBoys_0_to_18_Height/Year[@YearName = '" + age + "']");
                         NodeList nl = (NodeList)xpr.evaluate(doc, XPathConstants.NODESET);
                         Node dashboard = (Node) nl.item(0);
 //                    System.out.println("dashboard: " +dashboard.getChildNodes());
@@ -454,7 +454,7 @@ public class ReadXMLData {
                     }
                     if(gender == "WHOBoys" && xmlType == "_0_to_18_Weight.xml")
                     {
-                        XPathExpression xpr  = xPath.compile("/WHOBoys_0_to_18_Height/Year[@YearName = '" + age + "']");
+                        XPathExpression xpr  = xPath.compile("/WHOBoys_0_to_18_Weight/Year[@YearName = '" + age + "']");
                         NodeList nl = (NodeList)xpr.evaluate(doc, XPathConstants.NODESET);
                         Node dashboard = (Node) nl.item(0);
 //                    System.out.println("dashboard: " +dashboard.getChildNodes());
