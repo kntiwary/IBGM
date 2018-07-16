@@ -11,6 +11,7 @@ import com.mikhaellopez.lazydatepicker.LazyDatePicker;
 import android.app.DatePickerDialog;
 import android.content.ContentValues;
 
+import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.res.Resources;
@@ -81,9 +82,12 @@ public class PatientBasicInputs extends Activity implements View.OnClickListener
 
     private DatePickerDialog toDatePickerDialog;
     private String date1;
+    private Date selectedDate;
+    private String selectedDateFormat;
     private SimpleDateFormat dateFormatter;
 
-    private static final String DATE_FORMAT = "MM-dd-yyyy";
+    //    private static final String DATE_FORMAT = "MM-dd-yyyy";
+    private static final String DATE_FORMAT = "dd/MM/yyyy";
 
 
     @Override
@@ -105,7 +109,8 @@ public class PatientBasicInputs extends Activity implements View.OnClickListener
 
 
 
-        Date minDate = LazyDatePicker.stringToDate(cal.getTime().toString(), DATE_FORMAT);
+//        Date minDate = LazyDatePicker.stringToDate(cal.getTime().toString(), DATE_FORMAT);
+        Date minDate = LazyDatePicker.stringToDate("01-01-2016", DATE_FORMAT);
         System.out.println("minDate " + minDate);
 
         Date maxDate = LazyDatePicker.stringToDate(Calendar.getInstance().getTime().toString(), DATE_FORMAT);
@@ -123,25 +128,35 @@ public class PatientBasicInputs extends Activity implements View.OnClickListener
 
         // Init LazyDatePicker
         LazyDatePicker lazyDatePicker = (LazyDatePicker)findViewById(R.id.lazyDate);
-        lazyDatePicker.setDateFormat(LazyDatePicker.DateFormat.MM_DD_YYYY);
+        lazyDatePicker.setDateFormat(LazyDatePicker.DateFormat.DD_MM_YYYY);
         lazyDatePicker.setMinDate(minDate);
         lazyDatePicker.setMaxDate(maxDate);
+
 
         lazyDatePicker.setOnDatePickListener(new LazyDatePicker.OnDatePickListener() {
             @Override
             public void onDatePick(Date dateSelected) {
-                Calendar newDate = Calendar.getInstance();
-                date1 = dateFormatter.format(newDate.getTime());
-                // Toast.makeText(getApplicationContext(), "date1 String :" + date1, Toast.LENGTH_SHORT).show();
-                try {
-                    Date dateOfBo = dateFormatter.parse(date1);
-                    getAge(dateOfBo);
-                    System.out.println("age " + getAge(dateOfBo));
-                    pdob.setText(dateFormatter.format(dateOfBo));
+                selectedDate = dateSelected;
+                selectedDateFormat = LazyDatePicker.dateToString(dateSelected, DATE_FORMAT);
+                Toast.makeText(PatientBasicInputs.this,
+                        "Selected date: " + LazyDatePicker.dateToString(dateSelected, DATE_FORMAT),
+                        Toast.LENGTH_SHORT).show();
+                getAge(selectedDate);
+//                Calendar newDate = Calendar.getInstance();
+//                date1 = dateFormatter.format(newDate.getTime());
+//                System.out.println("date1 " + date1);
+//                // Toast.makeText(getApplicationContext(), "date1 String :" + date1, Toast.LENGTH_SHORT).show();
+//                try {
+//                    Date dateOfBo = dateFormatter.parse(date1);
+//                    getAge(dateOfBo);
+//                    System.out.println("age " + getAge(dateOfBo));
+//                    pdob.setText(dateFormatter.format(dateOfBo));
+//
+//
+//                } catch (Exception e) {
+//                    e.printStackTrace();
+//                }
 
-                } catch (Exception e) {
-                    e.printStackTrace();
-                }
 
             }
         });
@@ -169,10 +184,10 @@ public class PatientBasicInputs extends Activity implements View.OnClickListener
 
         //Validation ends
 
-        pdob = (EditText) findViewById(R.id.patientdob);
-        pdob.setInputType(InputType.TYPE_NULL);
-        pdob.setKeyListener(null);
-        updateLabel();
+//        pdob = (EditText) findViewById(R.id.patientdob);
+//        pdob.setInputType(InputType.TYPE_NULL);
+//        pdob.setKeyListener(null);
+        // updateLabel();
        /* pdob.setOnTouchListener(new View.OnTouchListener() {
             @Override
             public boolean onTouch(View v, MotionEvent event) {
@@ -200,9 +215,9 @@ public class PatientBasicInputs extends Activity implements View.OnClickListener
                 EditText editText = (EditText) findViewById(R.id.patientname);
                 editText.setText(pCursor.getString(2).toString());
 
-                editText = (EditText) findViewById(R.id.patientdob);
-                editText.setText(pCursor.getString(3).toString());
-                SharedValues.setSelectedPatientDOB(pCursor.getString(3).toString());
+//                editText = (EditText) findViewById(R.id.patientdob);
+//                editText.setText(pCursor.getString(3).toString());
+//                SharedValues.setSelectedPatientDOB(pCursor.getString(3).toString());
                 //dbvalue += pCursor.getString(2).toString() + pCursor.getString(3).toString() +
                 //        pCursor.getString(4).toString() + pCursor.getString(5).toString() +
                 //     pCursor.getString(6).toString() + pCursor.getString(7).toString() ;
@@ -523,7 +538,7 @@ public class PatientBasicInputs extends Activity implements View.OnClickListener
         });
 
         EditText patientage = (EditText) findViewById(R.id.patientage);
-        final EditText patientdobValue = (EditText) findViewById(R.id.patientdob);
+//        final EditText patientdobValue = (EditText) findViewById(R.id.patientdob);
         patientage.addTextChangedListener(new TextWatcher() {
 
             @Override
@@ -560,7 +575,7 @@ public class PatientBasicInputs extends Activity implements View.OnClickListener
                                 String convertedDate = DateUtils.dateToString(DateUtils.DATE_DD_MM_YYYY_FRONT_SLASH, calendar.getTime());
 
                                 Log.i(TAG, "converted Date In String : " + convertedDate);
-                                patientdobValue.setText(convertedDate);
+//                                patientdobValue.setText(convertedDate);
                             }
 
                         } else {
@@ -599,6 +614,7 @@ public class PatientBasicInputs extends Activity implements View.OnClickListener
                         Date dateOfBo = dateFormatter.parse(date1);
                         getAge(dateOfBo);
                         pdob.setText(dateFormatter.format(dateOfBo));
+                        System.out.println("age original control " + dateOfBo);
 
                     } catch (Exception e) {
                         e.printStackTrace();
@@ -700,10 +716,15 @@ public class PatientBasicInputs extends Activity implements View.OnClickListener
         fieldValidationOnSave(pdata, "Patient name is empty");
         values.put(DBFeedReaderContract.FeedEntryPatients.P_NAME, pdata.getText().toString());
 
-        pdata = (EditText) findViewById(R.id.patientdob);
-        fieldValidationOnSave(pdata, "Patient date of birth is empty");
-        values.put(DBFeedReaderContract.FeedEntryPatients.P_DOB, pdata.getText().toString());
-        SharedValues.setSelectedPatientDOB(pdata.getText().toString());
+
+        String dob = selectedDate.toString();
+        String dateofBirth = selectedDateFormat;
+        System.out.println("db " + dob);
+        System.out.println("dateofBirth " + dateofBirth);
+//        fieldValidationOnSave(pdata, "Patient date of birth is empty");
+        SharedValues.setSelectedPatientDOB(dateofBirth.toString());
+        values.put(DBFeedReaderContract.FeedEntryPatients.P_DOB, dateofBirth.toString());
+
 
         Spinner pgender = (Spinner) findViewById(R.id.patientgenderlist);
         values.put(DBFeedReaderContract.FeedEntryPatients.P_Gender, pgender.getSelectedItem().toString());
@@ -781,8 +802,8 @@ public class PatientBasicInputs extends Activity implements View.OnClickListener
                 EditText pname = (EditText) findViewById(R.id.patientname);
                 SharedValues.setSelectedPatientName(pname.getText().toString());
 
-                EditText pdob = (EditText) findViewById(R.id.patientdob);
-                SharedValues.setSelectedPatientDOB(pdob.getText().toString());
+//                EditText pdob = (EditText) findViewById(R.id.patientdob);
+                SharedValues.setSelectedPatientDOB(selectedDateFormat.toString());
 
                 Spinner pGender = (Spinner) findViewById(R.id.patientgenderlist);
                 SharedValues.setSelectedPatientGender(pGender.getSelectedItem().toString());
@@ -813,8 +834,9 @@ public class PatientBasicInputs extends Activity implements View.OnClickListener
                     EditText pname = (EditText) findViewById(R.id.patientname);
                     SharedValues.setSelectedPatientName(pname.getText().toString());
 
-                    EditText pdob = (EditText) findViewById(R.id.patientdob);
-                    SharedValues.setSelectedPatientDOB(pdob.getText().toString());
+//                    EditText pdob = (EditText) findViewById(R.id.patientdob);
+//                    SharedValues.setSelectedPatientDOB(pdob.getText().toString());
+                    SharedValues.setSelectedPatientDOB(selectedDateFormat.toString());
 
                     Spinner sdata = (Spinner) findViewById(R.id.patientgenderlist);
                     SharedValues.setSelectedPatientGender(sdata.getSelectedItem().toString());
@@ -985,6 +1007,7 @@ public class PatientBasicInputs extends Activity implements View.OnClickListener
     }
 
     private String getAge(Date birthDate) {
+        System.out.println("birthDate " + birthDate);
         int years = 0;
         int months = 0;
         int days = 0;
@@ -1031,7 +1054,7 @@ public class PatientBasicInputs extends Activity implements View.OnClickListener
     }
 
     public void calculateDateOfBirth(double age) {
-        EditText patientDOBText = (EditText) findViewById(R.id.patientdob);
+//        EditText patientDOBText = (EditText) findViewById(R.id.patientdob);
 
         // double age = 2.5;
         double days = age * 365; //547.5 days
@@ -1044,21 +1067,21 @@ public class PatientBasicInputs extends Activity implements View.OnClickListener
         int currYear = now.get(Calendar.YEAR);
         int currentDate = now.get(Calendar.DATE);
         String dobd = null;
-        String patientDOB = patientDOBText.getText().toString();
-        if (patientDOB != null && patientDOB.length() > 0) {
-            int currentYear = now.get(Calendar.YEAR);
-            String[] arr = patientDOB.split("/");
-            Double yearValue = Double.valueOf(year);
-
-            int calculatedyear = currentYear - yearValue.intValue();
-            dobd = arr[0] + "/" + arr[1] + "/" + calculatedyear;
-        } else {
-            dobd = currentDate + "/" + currMonth + "/" + (currYear - Math.round(year));
-        }
+//        String patientDOB = patientDOBText.getText().toString();
+//        if (patientDOB != null && patientDOB.length() > 0) {
+//            int currentYear = now.get(Calendar.YEAR);
+//            String[] arr = patientDOB.split("/");
+//            Double yearValue = Double.valueOf(year);
+//
+//            int calculatedyear = currentYear - yearValue.intValue();
+//            dobd = arr[0] + "/" + arr[1] + "/" + calculatedyear;
+//        } else {
+//            dobd = currentDate + "/" + currMonth + "/" + (currYear - Math.round(year));
+//        }
 
 
         //System.out.println("DATE OF BIRTH:"+dobd);
-        patientDOBText.setText(dobd.toString());
+//        patientDOBText.setText(dobd.toString());
     }
 
 

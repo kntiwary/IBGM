@@ -63,6 +63,7 @@ public class SharedValues {
 
     public static void setSelectedPatientDOB(String passedpdob)
     {
+        System.out.println("passedpdob"+ passedpdob);
         selectedPatientDOB = passedpdob ;
     }
 

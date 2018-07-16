@@ -109,9 +109,14 @@ public class PatientGrowthDataInputs extends CHMActivity implements View.OnClick
         System.out.println("pAgeOnCurrentDate  " + pAgeOnCurrentDate);
         SimpleDateFormat sdformat = new SimpleDateFormat("dd/MM/yyyy");
         Date birthDate2 = new Date();//= SharedValues.getSelectedPatientDOB(); //
+        String dob = SharedValues.getSelectedPatientDOB();
+        System.out.println("dob"+ dob);
         try {
             birthDate2 = DateUtils.stringToDate("dd/MM/yyyy", SharedValues.getSelectedPatientDOB());
-        } catch (Exception e) {
+            System.out.println("birthDate2"+ birthDate2);
+
+        } catch (Exception e)
+        {
             e.printStackTrace();
         }
 
