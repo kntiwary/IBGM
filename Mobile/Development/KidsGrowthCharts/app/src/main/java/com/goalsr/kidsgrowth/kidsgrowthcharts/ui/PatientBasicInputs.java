@@ -53,9 +53,15 @@ import com.goalsr.kidsgrowth.kidsgrowthcharts.util.DateUtils;
 
 import com.goalsr.kidsgrowth.kidsgrowthcharts.util.SharedValues;
 
+import com.mikhaellopez.lazydatepicker.LazyDatePicker;
+import java.util.Date;
+
 
 
 public class PatientBasicInputs extends Activity implements View.OnClickListener {
+
+
+    private static final String DATE_FORMAT = "MM-dd-yyyy";
 
     private static final String TAG = "PatientInput";
     //UI References
@@ -71,6 +77,8 @@ public class PatientBasicInputs extends Activity implements View.OnClickListener
     private SimpleDateFormat dateFormatter;
 
 
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -79,6 +87,12 @@ public class PatientBasicInputs extends Activity implements View.OnClickListener
         //For Validaitons at fieldlevel
         // Setting custom drawable instead of red error indicator,
         error_indicator = getResources().getDrawable(R.drawable.popup_inline_error);
+
+
+
+        Date minDate = LazyDatePicker.stringToDate("01-01-2000", DATE_FORMAT);
+        Date maxDate = LazyDatePicker.stringToDate("12-31-2028", DATE_FORMAT);
+//        System.out.println("maxDate" +maxDate);
 
         int left = 0;
         int top = 0;
@@ -93,6 +107,27 @@ public class PatientBasicInputs extends Activity implements View.OnClickListener
         // pname.setOnEditorActionListener(new EmptyTextListener(pname));
 
         //Validation ends
+
+        LazyDatePicker lazyDatePicker = (LazyDatePicker)findViewById(R.id.lazyDatePicker);
+        lazyDatePicker.setDateFormat(LazyDatePicker.DateFormat.MM_DD_YYYY);
+        lazyDatePicker.setMinDate(minDate);
+        lazyDatePicker.setMaxDate(maxDate);
+
+
+
+
+
+
+
+        lazyDatePicker.setOnDatePickListener(new LazyDatePicker.OnDatePickListener() {
+            @Override
+            public void onDatePick(Date dateSelected) {
+                Toast.makeText(PatientBasicInputs.this,
+                        "Selected date: " + LazyDatePicker.dateToString(dateSelected, DATE_FORMAT),
+                        Toast.LENGTH_SHORT).show();
+            }
+        });
+
 
         pdob = (EditText) findViewById(R.id.patientdob);
         pdob.setInputType(InputType.TYPE_NULL);
