@@ -80,7 +80,7 @@ public class ReadXMLData {
 
 
                     if(gender == "WHOBoys" &&  xmlType == "BMI_0_to_18_Years_BMI.xml"){
-                        XPathExpression xpr  = xPath.compile("/WHOBoys_0_to_18_Height/Year[@YearName = '" + age + "']");
+                        XPathExpression xpr  = xPath.compile("/WHOBoysBMI_0_to_18_Years_BMI/Year[@YearName = '" + age + "']");
                         NodeList nl = (NodeList)xpr.evaluate(doc, XPathConstants.NODESET);
                         Node dashboard = (Node) nl.item(0);
 //                    System.out.println("dashboard: " +dashboard.getChildNodes());
@@ -116,10 +116,10 @@ public class ReadXMLData {
                                 if(Double.valueOf(newdashboard.getElementsByTagName("FifthPercentile").item(0).getTextContent()) != null)
                                     percentile.setFifthPercentile(Double.valueOf(newdashboard.getElementsByTagName("FifthPercentile").item(0).getTextContent()));
                             }
-                            if(xmlType.equals("BMI_0_to_18_Years_BMI.xml") && gender.equals("WHOBoys")){
-                                if(Double.valueOf(newdashboard.getElementsByTagName("FifthPercentile").item(0).getTextContent()) != null)
-                                    percentile.setFifthPercentile(Double.valueOf(newdashboard.getElementsByTagName("FifthPercentile").item(0).getTextContent()));
-                            }
+//                            if(xmlType.equals("BMI_0_to_18_Years_BMI.xml") && gender.equals("WHOBoys")){
+//                                if(Double.valueOf(newdashboard.getElementsByTagName("FifthPercentile").item(0).getTextContent()) != null)
+//                                    percentile.setFifthPercentile(Double.valueOf(newdashboard.getElementsByTagName("FifthPercentile").item(0).getTextContent()));
+//                            }
 
                             if(Double.valueOf(newdashboard.getElementsByTagName("TenthPercentile").item(0).getTextContent()) != null)
                                 percentile.setTenthPercentile(Double.valueOf(newdashboard.getElementsByTagName("TenthPercentile").item(0).getTextContent()));
@@ -138,8 +138,8 @@ public class ReadXMLData {
                                     percentile.setNinetyathPercentile(Double.valueOf(newdashboard.getElementsByTagName("NinetyathPercentile").item(0).getTextContent()));
                             }
                             if(xmlType.equals("BMI_0_to_18_Years_BMI.xml")){
-                                if(Double.valueOf(newdashboard.getElementsByTagName("NinetyFifthPercentile").item(0).getTextContent()) != null)
-                                    percentile.setNinetyFifthPercentile(Double.valueOf(newdashboard.getElementsByTagName("NinetyFifthPercentile").item(0).getTextContent()));
+//                                if(Double.valueOf(newdashboard.getElementsByTagName("NinetyFifthPercentile").item(0).getTextContent()) != null)
+//                                    percentile.setNinetyFifthPercentile(Double.valueOf(newdashboard.getElementsByTagName("NinetyFifthPercentile").item(0).getTextContent()));
 
                             }
                             if(!xmlType.equals("BMI_0_to_18_Years_BMI.xml") ){
@@ -173,7 +173,7 @@ public class ReadXMLData {
 
 
                     if(gender == "WHOGirls" &&  xmlType == "BMI_0_to_18_Years_BMI.xml"){
-                        XPathExpression xpr  = xPath.compile("/WHOGirls_0_to_18_Height/Year[@YearName = '" + age + "']");
+                        XPathExpression xpr  = xPath.compile("/WHOGirlsBMI_0_to_18_Years_BMI/Year[@YearName = '" + age + "']");
                         NodeList nl = (NodeList)xpr.evaluate(doc, XPathConstants.NODESET);
                         Node dashboard = (Node) nl.item(0);
 //                    System.out.println("dashboard: " +dashboard.getChildNodes());

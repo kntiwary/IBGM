@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<WHOBoyBMI_0_to_18_Years_BMI>
+<WHOBoysBMI_0_to_18_Years_BMI>
 
     <Year YearName="0">
         <ThirdPercentile>2.1</ThirdPercentile>
@@ -1978,4 +1978,4 @@
         <NinetyathPercentile>78.55862</NinetyathPercentile>
         <NinetySeventhPercentile>88.36958</NinetySeventhPercentile>
     </Year>
-</WHOBoyBMI_0_to_18_Years_BMI>
+</WHOBoysBMI_0_to_18_Years_BMI>
