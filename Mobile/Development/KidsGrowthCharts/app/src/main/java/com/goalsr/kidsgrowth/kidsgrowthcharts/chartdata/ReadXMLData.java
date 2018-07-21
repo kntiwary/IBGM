@@ -55,14 +55,7 @@ public class ReadXMLData {
 
             AssetManager assetManager = context.getAssets() ;
 
-          //  String filePath = "D:\\CHM_XML\\"+gender+xmlType;
-           // InputStream inputStream = assetManager.open(gender+xmlType) ;
-
-           /* System.out.println("gender: "+gender);
-            System.out.println("xmlType: "+xmlType);
-            System.out.println("age: "+age);*/
             assetManager.open(gender+xmlType);
-            //File xmlFile = new File(inputStream.toString());
             DocumentBuilderFactory documentFactory = DocumentBuilderFactory
                     .newInstance();
             DocumentBuilder documentBuilder = documentFactory.newDocumentBuilder();
@@ -80,10 +73,14 @@ public class ReadXMLData {
 
 
                     if(gender == "WHOBoys" &&  xmlType == "BMI_0_to_18_Years_BMI.xml"){
-                        XPathExpression xpr  = xPath.compile("/WHOBoys_0_to_18_Height/Year[@YearName = '" + age + "']");
+                        XPathExpression xpr  = xPath.compile("/WHOBoysBMI_0_to_18_Years_BMI/Year[@YearName = '" + age + "']");
+//                        XPathExpression xpr  = xPath.compile("/WHOBoys_0_to_18_Height/Year[@YearName = '" + age + "']");
+
+
+
                         NodeList nl = (NodeList)xpr.evaluate(doc, XPathConstants.NODESET);
                         Node dashboard = (Node) nl.item(0);
-//                    System.out.println("dashboard: " +dashboard.getChildNodes());
+                         System.out.println("dashboard: " +dashboard.getChildNodes());
 
 
                         for (int j=0;j<dashboard.getChildNodes().getLength();j++)
@@ -95,7 +92,7 @@ public class ReadXMLData {
                             System.out.println("dashValue: " +dashName+"-"+dashValue);
                             Element newdashboard = (Element) nl.item(0);
 //                    if(    Double.valueOf(dashValue)!=0.0 && percentile.getAge()< Double.valueOf(dashValue)   )
-                            if(    Double.valueOf(dashValue)!=0.0 )
+                            if(Double.valueOf(dashValue)!=0.0 )
                             {
                                 System.out.println("After newdashboard"+Double.valueOf(newdashboard.getElementsByTagName(dashName).item(0).getTextContent()));
                             }
@@ -103,11 +100,6 @@ public class ReadXMLData {
 
 
 //
-//                        System.out.println("newdashboard: " +newdashboard);
-//                        System.out.println("After newdashboard"+Double.valueOf(newdashboard.getElementsByTagName(dashName).item(0).getTextContent()));
-//
-
-
 
                             if(Double.valueOf(newdashboard.getElementsByTagName("ThirdPercentile").item(0).getTextContent()) != null)
                                 percentile.setThirdPercentile(Double.valueOf(newdashboard.getElementsByTagName("ThirdPercentile").item(0).getTextContent()));
@@ -147,20 +139,7 @@ public class ReadXMLData {
                                     percentile.setNinetySeventhPercentile(Double.valueOf(newdashboard.getElementsByTagName("NinetySeventhPercentile").item(0).getTextContent()));
                             }
 
-//                    if(Double.valueOf(dashValue ) != null)
-//                        percentile.setThirdPercentile(Double.valueOf(dashValue ));
 //
-//                    if(age >= 5.0 && xmlType.equals("BMI_0_to_18_Years_BMI.xml") && gender.equals("WHOGirls")){
-//                        if(Double.valueOf(dashValue ) != null)
-//                            percentile.setFifthPercentile(Double.valueOf(dashValue));
-//                    }
-//                    if(xmlType.equals("BMI_0_to_18_Years_BMI.xml") && gender.equals("WHOBoys")){
-//                        if(Double.valueOf(dashValue) != null)
-//                            percentile.setFifthPercentile(Double.valueOf(dashValue));
-//                    }
-//
-//                    if(Double.valueOf(dashValue) != null)
-//                        percentile.setTenthPercentile(Double.valueOf(dashValue));
                             return percentile;
 
 
@@ -173,7 +152,9 @@ public class ReadXMLData {
 
 
                     if(gender == "WHOGirls" &&  xmlType == "BMI_0_to_18_Years_BMI.xml"){
-                        XPathExpression xpr  = xPath.compile("/WHOGirls_0_to_18_Height/Year[@YearName = '" + age + "']");
+                        XPathExpression xpr  = xPath.compile("/WHOGirlsBMI_0_to_18_Years_BMI/Year[@YearName = '" + age + "']");
+
+
                         NodeList nl = (NodeList)xpr.evaluate(doc, XPathConstants.NODESET);
                         Node dashboard = (Node) nl.item(0);
 //                    System.out.println("dashboard: " +dashboard.getChildNodes());
@@ -465,11 +446,11 @@ public class ReadXMLData {
                         {
                             j++;
                             dashValue =Double.valueOf(dashboard.getChildNodes().item(j).getTextContent());
-//                    String dashValue =dashboard.getChildNodes().item(j).getTextContent();
+
                             String dashName =dashboard.getChildNodes().item(j).getNodeName();
                             System.out.println("dashValue: " +dashName+"-"+dashValue);
                             Element newdashboard = (Element) nl.item(0);
-//                    if(    Double.valueOf(dashValue)!=0.0 && percentile.getAge()< Double.valueOf(dashValue)   )
+
                             if(    Double.valueOf(dashValue)!=0.0 )
                             {
                                 System.out.println("After newdashboard"+Double.valueOf(newdashboard.getElementsByTagName(dashName).item(0).getTextContent()));

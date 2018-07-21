@@ -95,9 +95,9 @@ public class PatientGrowthDataInputs extends CHMActivity implements View.OnClick
 
         error_indicator.setBounds(new Rect(left, top, right, bottom));
 
-//        pvisitdate = (EditText) findViewById(R.id.pvisitdate);
-//        pvisitdate.setInputType(InputType.TYPE_NULL);
-//        pvisitdate.setKeyListener(null);
+        pvisitdate = (EditText) findViewById(R.id.pvisitdate);
+        pvisitdate.setInputType(InputType.TYPE_NULL);
+        pvisitdate.setKeyListener(null);
 
         TextView weightPercentileText = (TextView) findViewById(R.id.weightPercentileText);
         weightPercentileText.setVisibility(View.GONE);
@@ -147,9 +147,9 @@ public class PatientGrowthDataInputs extends CHMActivity implements View.OnClick
 
 
 
-//        pvisitdate.setHint("Please select visit date");
+        pvisitdate.setHint("Please select visit date");
 
-//        setDateTimeField();
+        setDateTimeField();
         updateLabel();
 
         EditText pAgeOnCurrentDate = (EditText) findViewById(R.id.pvisitage);
@@ -520,7 +520,7 @@ public class PatientGrowthDataInputs extends CHMActivity implements View.OnClick
 
         String myFormat = "dd/MM/yyyy"; //In which you need put here
         SimpleDateFormat sdf = new SimpleDateFormat(myFormat, Locale.ENGLISH);
-        //pvisitdate.setText(sdf.format(myCalendar.getTime()));
+        pvisitdate.setText(sdf.format(myCalendar.getTime()));
     }
 
     /*pDataCancelAction*/
@@ -787,11 +787,12 @@ public class PatientGrowthDataInputs extends CHMActivity implements View.OnClick
                 }
 
                 EditText pbmiText = (EditText) findViewById(R.id.calculateBMIText);
+                System.out.println("pbmiText"+pbmiText.getText().toString());
                 ReadXMLData readXMLData = new ReadXMLData();
                 Percentile bmiPercentileObject = new Percentile();
                 try {
-//                    bmiPercentileObject = readXMLData.readPercentileValues(getApplicationContext(), SharedValues.getTempPatientAge(), SharedValues.getSelectedPatientGender().toString(), "BMI");
-                    bmiPercentileObject = readXMLData.readPercentileValues(getApplicationContext(), Double.valueOf(pcur.getText().toString()), SharedValues.getSelectedPatientGender().toString(), "BMI");
+                    bmiPercentileObject = readXMLData.readPercentileValues(getApplicationContext(), SharedValues.getTempPatientAge(), SharedValues.getSelectedPatientGender().toString(), "BMI");
+//                    bmiPercentileObject = readXMLData.readPercentileValues(getApplicationContext(), Double.valueOf(pcur.getText().toString()), SharedValues.getSelectedPatientGender().toString(), "BMI");
 //                    weightPercentileObject = readXMLData.readPercentileValues(getApplicationContext(), Double.valueOf(pcur.getText().toString()), SharedValues.getSelectedPatientGender().toString(), "Weight");
                 } catch (ParserConfigurationException e) {
                     e.printStackTrace();
@@ -799,9 +800,10 @@ public class PatientGrowthDataInputs extends CHMActivity implements View.OnClick
                     e.printStackTrace();
                 }
                 String bmiPercentileResult = bmiPercentileObject.getLiesBetweenValue((double) Double.valueOf(pbmiText.getText().toString()), "BMI");
+                System.out.println("bmiPercentileResult"+bmiPercentileResult);
                 TextView bmiPercentileText = (TextView) findViewById(R.id.bmiPercentileText);
                 bmiPercentileText.setVisibility(View.VISIBLE);
-                bmiPercentileText.setText("BMI: " + bmiPercentileResult);
+                bmiPercentileText.setText("BMI: " +bmiPercentileResult);
 
             } else {
                 calculateBMItxt.setText("");
