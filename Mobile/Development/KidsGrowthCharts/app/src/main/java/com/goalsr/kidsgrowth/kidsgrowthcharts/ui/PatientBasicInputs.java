@@ -110,10 +110,10 @@ public class PatientBasicInputs extends Activity implements View.OnClickListener
 
 
 //        Date minDate = LazyDatePicker.stringToDate(cal.getTime().toString(), DATE_FORMAT);
-        Date minDate = LazyDatePicker.stringToDate("01-01-2016", DATE_FORMAT);
+        Date minDate = LazyDatePicker.stringToDate("01-01-2000", DATE_FORMAT);
         System.out.println("minDate " + minDate);
 
-        Date maxDate = LazyDatePicker.stringToDate(Calendar.getInstance().getTime().toString(), DATE_FORMAT);
+        Date maxDate = LazyDatePicker.stringToDate("01-01-2028", DATE_FORMAT);
         System.out.println("maxDate " + maxDate);
 
 

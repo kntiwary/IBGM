@@ -57,6 +57,10 @@ import java.util.Locale;
 import javax.xml.parsers.ParserConfigurationException;
 
 
+
+import com.mikhaellopez.lazydatepicker.LazyDatePicker;
+
+
 public class PatientGrowthDataInputs extends CHMActivity implements View.OnClickListener {
 
     public static long visitid;
@@ -66,7 +70,11 @@ public class PatientGrowthDataInputs extends CHMActivity implements View.OnClick
 
     private DatePickerDialog toDatePickerDialog;
     private String date1;
+    private Date selectedDate;
+    private String selectedDateFormat;
     private SimpleDateFormat dateFormatter;
+
+    private static final String DATE_FORMAT = "dd/MM/yyyy";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -87,9 +95,9 @@ public class PatientGrowthDataInputs extends CHMActivity implements View.OnClick
 
         error_indicator.setBounds(new Rect(left, top, right, bottom));
 
-        pvisitdate = (EditText) findViewById(R.id.pvisitdate);
-        pvisitdate.setInputType(InputType.TYPE_NULL);
-        pvisitdate.setKeyListener(null);
+//        pvisitdate = (EditText) findViewById(R.id.pvisitdate);
+//        pvisitdate.setInputType(InputType.TYPE_NULL);
+//        pvisitdate.setKeyListener(null);
 
         TextView weightPercentileText = (TextView) findViewById(R.id.weightPercentileText);
         weightPercentileText.setVisibility(View.GONE);
@@ -100,9 +108,48 @@ public class PatientGrowthDataInputs extends CHMActivity implements View.OnClick
         TextView bmiPercentileText = (TextView) findViewById(R.id.bmiPercentileText);
         bmiPercentileText.setVisibility(View.GONE);
 
-        pvisitdate.setHint("Please select visit date");
 
-        setDateTimeField();
+
+
+
+
+
+        Date minDate = LazyDatePicker.stringToDate("01-01-2000", DATE_FORMAT);
+        Date maxDate = LazyDatePicker.stringToDate("01-01-2028", DATE_FORMAT);
+
+
+
+
+        LazyDatePicker lazyDatePicker = (LazyDatePicker)findViewById(R.id.lazyDate);
+        lazyDatePicker.setDateFormat(LazyDatePicker.DateFormat.DD_MM_YYYY);
+        lazyDatePicker.setMinDate(minDate);
+        lazyDatePicker.setMaxDate(maxDate);
+
+
+        lazyDatePicker.setOnDatePickListener(new LazyDatePicker.OnDatePickListener() {
+            @Override
+            public void onDatePick(Date dateSelected) {
+                selectedDate = dateSelected;
+                selectedDateFormat = LazyDatePicker.dateToString(dateSelected, DATE_FORMAT);
+                Toast.makeText(PatientGrowthDataInputs.this,
+                        "Selected date: " + LazyDatePicker.dateToString(dateSelected, DATE_FORMAT),
+                        Toast.LENGTH_SHORT).show();
+//                getAge(selectedDate);
+
+
+            }
+        });
+
+
+
+
+
+
+
+
+//        pvisitdate.setHint("Please select visit date");
+
+//        setDateTimeField();
         updateLabel();
 
         EditText pAgeOnCurrentDate = (EditText) findViewById(R.id.pvisitage);
@@ -225,10 +272,13 @@ public class PatientGrowthDataInputs extends CHMActivity implements View.OnClick
                         calculateBMI();
 
                         EditText pweightText = (EditText) findViewById(R.id.pweight);
+                        EditText pcur = (EditText) findViewById(R.id.pvisitage);
                         ReadXMLData readXMLData = new ReadXMLData();
                         Percentile weightPercentileObject = new Percentile();
                         try {
-                            weightPercentileObject = readXMLData.readPercentileValues(getApplicationContext(), SharedValues.getTempPatientAge(), SharedValues.getSelectedPatientGender().toString(), "Weight");
+//                            weightPercentileObject = readXMLData.readPercentileValues(getApplicationContext(), SharedValues.getTempPatientAge(), SharedValues.getSelectedPatientGender().toString(), "Weight");
+                            weightPercentileObject = readXMLData.readPercentileValues(getApplicationContext(), Double.valueOf(pcur.getText().toString()), SharedValues.getSelectedPatientGender().toString(), "Weight");
+//                            heightPercentileObject = readXMLData.readPercentileValues(getApplicationContext(), Double.valueOf(pcur.getText().toString()), SharedValues.getSelectedPatientGender().toString(), "Height");
                         } catch (ParserConfigurationException e) {
                             e.printStackTrace();
                         } catch (SAXException e) {
@@ -516,15 +566,19 @@ public class PatientGrowthDataInputs extends CHMActivity implements View.OnClick
             // System.out.println("GRwOTH INPUT SharedValues.getSelectedPatientId(): "+SharedValues.getSelectedPatientId());
             values.put(DBFeedReaderContract.FeedEntryVisits.V_PATIENT_UUID, SharedValues.getSelectedPatientId());
 
-            EditText pdata = (EditText) findViewById(R.id.pvisitdate);
-            values.put(DBFeedReaderContract.FeedEntryVisits.V_VISITDATE, pdata.getText().toString());
-            fieldValidationOnSave(pdata, "Visit date is empty");
-            String visitdt = pdata.getText().toString();
+//            EditText pdata = (EditText) findViewById(R.id.pvisitdate);
+
+            String dateofVisit = selectedDateFormat;
+//            values.put(DBFeedReaderContract.FeedEntryVisits.V_VISITDATE, pdata.getText().toString());
+            values.put(DBFeedReaderContract.FeedEntryVisits.V_VISITDATE, dateofVisit.toString());
+//            fieldValidationOnSave(pdata, "Visit date is empty");
+//            String visitdt = pdata.getText().toString();
+            String visitdt = dateofVisit.toString();
 
             String dateOfBirth = SharedValues.getSelectedPatientDOB().toString();
 
 
-            pdata = (EditText) findViewById(R.id.pheight);
+            EditText pdata = (EditText) findViewById(R.id.pheight);
             //fieldValidationOnSave(pdata, "Height field is empty");
 
             float bmi = 0;
@@ -712,6 +766,8 @@ public class PatientGrowthDataInputs extends CHMActivity implements View.OnClick
 
         EditText patientHeight = (EditText) findViewById(R.id.pheight);
         EditText patientWeight = (EditText) findViewById(R.id.pweight);
+        EditText pcur = (EditText) findViewById(R.id.pvisitage);
+
 
         EditText calculateBMItxt = (EditText) findViewById(R.id.calculateBMIText);
         try {
@@ -734,7 +790,9 @@ public class PatientGrowthDataInputs extends CHMActivity implements View.OnClick
                 ReadXMLData readXMLData = new ReadXMLData();
                 Percentile bmiPercentileObject = new Percentile();
                 try {
-                    bmiPercentileObject = readXMLData.readPercentileValues(getApplicationContext(), SharedValues.getTempPatientAge(), SharedValues.getSelectedPatientGender().toString(), "BMI");
+//                    bmiPercentileObject = readXMLData.readPercentileValues(getApplicationContext(), SharedValues.getTempPatientAge(), SharedValues.getSelectedPatientGender().toString(), "BMI");
+                    bmiPercentileObject = readXMLData.readPercentileValues(getApplicationContext(), Double.valueOf(pcur.getText().toString()), SharedValues.getSelectedPatientGender().toString(), "BMI");
+//                    weightPercentileObject = readXMLData.readPercentileValues(getApplicationContext(), Double.valueOf(pcur.getText().toString()), SharedValues.getSelectedPatientGender().toString(), "Weight");
                 } catch (ParserConfigurationException e) {
                     e.printStackTrace();
                 } catch (SAXException e) {
