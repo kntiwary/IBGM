@@ -265,7 +265,7 @@ public class PatientBasicInputs extends Activity implements View.OnClickListener
                 Double result = null;
                 if (pCursor.getString(4).toString().trim().equalsIgnoreCase("Male")) {
                     if (!pCursor.getString(10).toString().isEmpty() && !pCursor.getString(9).toString().isEmpty()) {
-                        // (Father's Height + Mother's Height + 13) / 2
+                        // (Father's HeigSht + Mother's Height + 13) / 2
                         result = (Double.valueOf(pCursor.getString(9).toString()) + Double.valueOf(pCursor.getString(10).toString()) + 13) / 2;
                         midParentalHeight1.setText(result.toString());
                         midParentalHeight1.setEnabled(false);

@@ -150,7 +150,7 @@ public class PatientGrowthDataInputs extends CHMActivity implements View.OnClick
        /* bmiText.addTextChangedListener(new TextWatcher() {
 
             @Override
-            public void onTextChanged(CharSequence s, int start, int before, int count) {
+            public void onTextChanged(CharSequence shar, int start, int before, int count) {
                 bmiPercentileMessage();
                 //Your query to fetch Data
             }
@@ -178,31 +178,7 @@ public class PatientGrowthDataInputs extends CHMActivity implements View.OnClick
 
 
 
-        /*pweightText.setOnFocusChangeListener(new View.OnFocusChangeListener() {
-            @Override
-            public void onFocusChange(View v, boolean hasFocus) {
 
-
-                if (!hasFocus) {
-                    EditText pweightText = (EditText)findViewById(R.id.pweight);
-                    System.out.println("pweightText "+pweightText.getText().toString());
-                    System.out.println("Age  " + patientAge);
-                    ReadXMLData readXMLData = new ReadXMLData();
-                    Percentile percentileObject = new Percentile();
-                    try {
-                          percentileObject = readXMLData.readPercentileValues(getApplicationContext(), patientAge, SharedValues.getSelectedPatientGender().toString(), "Weight");
-                    } catch (ParserConfigurationException e) {
-                        e.printStackTrace();
-                    } catch (SAXException e) {
-                        e.printStackTrace();
-                    }
-                    String resultString = percentileObject.getLiesBetweenValue((double)Double.valueOf(pweightText.getText().toString()), "Weight");
-                    //Toast.makeText(getApplicationContext(), resultString, Toast.LENGTH_LONG).show();
-                    TextView percentileText = (TextView)findViewById(R.id.percentileText);
-                    percentileText.setText(" Weight: "+resultString);
-                }
-            }
-        });*/
 
         pweightText.addTextChangedListener(new TextWatcher() {
 
@@ -225,10 +201,13 @@ public class PatientGrowthDataInputs extends CHMActivity implements View.OnClick
                         calculateBMI();
 
                         EditText pweightText = (EditText) findViewById(R.id.pweight);
+                        EditText pcur = (EditText) findViewById(R.id.pvisitage);
                         ReadXMLData readXMLData = new ReadXMLData();
                         Percentile weightPercentileObject = new Percentile();
                         try {
-                            weightPercentileObject = readXMLData.readPercentileValues(getApplicationContext(), SharedValues.getTempPatientAge(), SharedValues.getSelectedPatientGender().toString(), "Weight");
+//                            weightPercentileObject = readXMLData.readPercentileValues(getApplicationContext(), SharedValues.getTempPatientAge(), SharedValues.getSelectedPatientGender().toString(), "Weight");
+                            weightPercentileObject = readXMLData.readPercentileValues(getApplicationContext(), Double.valueOf(pcur.getText().toString()), SharedValues.getSelectedPatientGender().toString(), "Weight");
+
                         } catch (ParserConfigurationException e) {
                             e.printStackTrace();
                         } catch (SAXException e) {
@@ -236,7 +215,9 @@ public class PatientGrowthDataInputs extends CHMActivity implements View.OnClick
                         } catch (Exception e) {
                             e.printStackTrace();
                         }
+//                        String wieghtPercentileResult = weightPercentileObject.getLiesBetweenValue((double) Double.valueOf(pweightText.getText().toString()), "Weight");
                         String wieghtPercentileResult = weightPercentileObject.getLiesBetweenValue((double) Double.valueOf(pweightText.getText().toString()), "Weight");
+
                         SharedPreferences sharedPreferences = getSharedPreferences("MyPref", Context.MODE_PRIVATE);
                         SharedPreferences.Editor editor = sharedPreferences.edit();
                         editor.putString("referenceWeight", wieghtPercentileResult);
@@ -712,6 +693,7 @@ public class PatientGrowthDataInputs extends CHMActivity implements View.OnClick
 
         EditText patientHeight = (EditText) findViewById(R.id.pheight);
         EditText patientWeight = (EditText) findViewById(R.id.pweight);
+        EditText pcur = (EditText) findViewById(R.id.pvisitage);
 
         EditText calculateBMItxt = (EditText) findViewById(R.id.calculateBMIText);
         try {
@@ -734,7 +716,8 @@ public class PatientGrowthDataInputs extends CHMActivity implements View.OnClick
                 ReadXMLData readXMLData = new ReadXMLData();
                 Percentile bmiPercentileObject = new Percentile();
                 try {
-                    bmiPercentileObject = readXMLData.readPercentileValues(getApplicationContext(), SharedValues.getTempPatientAge(), SharedValues.getSelectedPatientGender().toString(), "BMI");
+//                    bmiPercentileObject = readXMLData.readPercentileValues(getApplicationContext(), SharedValues.getTempPatientAge(), SharedValues.getSelectedPatientGender().toString(), "BMI");
+                    bmiPercentileObject = readXMLData.readPercentileValues(getApplicationContext(), Double.valueOf(pcur.getText().toString()), SharedValues.getSelectedPatientGender().toString(), "BMI");
                 } catch (ParserConfigurationException e) {
                     e.printStackTrace();
                 } catch (SAXException e) {

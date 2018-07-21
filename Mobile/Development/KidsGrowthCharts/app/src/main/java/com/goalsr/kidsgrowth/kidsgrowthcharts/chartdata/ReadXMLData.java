@@ -79,11 +79,13 @@ public class ReadXMLData {
                     double dashValue =0.0;
 
 
-                    if(gender == "WHOBoys" &&  xmlType == "BMI_0_to_18_Years_BMI.xml"){
-                        XPathExpression xpr  = xPath.compile("/WHOBoys_0_to_18_Height/Year[@YearName = '" + age + "']");
+                    if(gender == "WHOBoys" &&  xmlType == "BMI_0_to_18_Years_BMI.xml")
+                    {
+                        XPathExpression xpr  = xPath.compile("/WHOBoysBMI_0_to_18_Years_BMI/Year[@YearName = '" + age + "']");
                         NodeList nl = (NodeList)xpr.evaluate(doc, XPathConstants.NODESET);
                         Node dashboard = (Node) nl.item(0);
-//                    System.out.println("dashboard: " +dashboard.getChildNodes());
+                    System.out.println("dashboard: " +dashboard.getChildNodes());
+                        //                    System.out.println("dashboard: " +dashboard.getChildNodes());
 
 
                         for (int j=0;j<dashboard.getChildNodes().getLength();j++)
@@ -117,8 +119,8 @@ public class ReadXMLData {
                                     percentile.setFifthPercentile(Double.valueOf(newdashboard.getElementsByTagName("FifthPercentile").item(0).getTextContent()));
                             }
                             if(xmlType.equals("BMI_0_to_18_Years_BMI.xml") && gender.equals("WHOBoys")){
-                                if(Double.valueOf(newdashboard.getElementsByTagName("FifthPercentile").item(0).getTextContent()) != null)
-                                    percentile.setFifthPercentile(Double.valueOf(newdashboard.getElementsByTagName("FifthPercentile").item(0).getTextContent()));
+//                                if(Double.valueOf(newdashboard.getElementsByTagName("FifthPercentile").item(0).getTextContent()) != null)
+//                                    percentile.setFifthPercentile(Double.valueOf(newdashboard.getElementsByTagName("FifthPercentile").item(0).getTextContent()));
                             }
 
                             if(Double.valueOf(newdashboard.getElementsByTagName("TenthPercentile").item(0).getTextContent()) != null)
@@ -137,11 +139,11 @@ public class ReadXMLData {
                                 if(Double.valueOf(newdashboard.getElementsByTagName("NinetyathPercentile").item(0).getTextContent()) != null)
                                     percentile.setNinetyathPercentile(Double.valueOf(newdashboard.getElementsByTagName("NinetyathPercentile").item(0).getTextContent()));
                             }
-                            if(xmlType.equals("BMI_0_to_18_Years_BMI.xml")){
-                                if(Double.valueOf(newdashboard.getElementsByTagName("NinetyFifthPercentile").item(0).getTextContent()) != null)
-                                    percentile.setNinetyFifthPercentile(Double.valueOf(newdashboard.getElementsByTagName("NinetyFifthPercentile").item(0).getTextContent()));
-
-                            }
+//                            if(xmlType.equals("BMI_0_to_18_Years_BMI.xml")){
+//                                if(Double.valueOf(newdashboard.getElementsByTagName("NinetyFifthPercentile").item(0).getTextContent()) != null)
+//                                    percentile.setNinetyFifthPercentile(Double.valueOf(newdashboard.getElementsByTagName("NinetyFifthPercentile").item(0).getTextContent()));
+//
+//                            }
                             if(!xmlType.equals("BMI_0_to_18_Years_BMI.xml") ){
                                 if(Double.valueOf(newdashboard.getElementsByTagName("NinetySeventhPercentile").item(0).getTextContent()) != null)
                                     percentile.setNinetySeventhPercentile(Double.valueOf(newdashboard.getElementsByTagName("NinetySeventhPercentile").item(0).getTextContent()));
@@ -173,7 +175,7 @@ public class ReadXMLData {
 
 
                     if(gender == "WHOGirls" &&  xmlType == "BMI_0_to_18_Years_BMI.xml"){
-                        XPathExpression xpr  = xPath.compile("/WHOGirls_0_to_18_Height/Year[@YearName = '" + age + "']");
+                        XPathExpression xpr  = xPath.compile("/WHOGirlsBMI_0_to_18_Years_BMI/Year[@YearName = '" + age + "']");
                         NodeList nl = (NodeList)xpr.evaluate(doc, XPathConstants.NODESET);
                         Node dashboard = (Node) nl.item(0);
 //                    System.out.println("dashboard: " +dashboard.getChildNodes());
@@ -584,34 +586,34 @@ public class ReadXMLData {
 
                             if(Double.valueOf(newdashboard.getElementsByTagName("SeventyFifthPercentile").item(0).getTextContent()) != null)
                                 percentile.setSeventyFifthPercentile(Double.valueOf(newdashboard.getElementsByTagName("SeventyFifthPercentile").item(0).getTextContent()));
-//                            if(!xmlType.equals("BMI_0_to_18_Years_BMI.xml") ){
-//                                if(Double.valueOf(newdashboard.getElementsByTagName("NinetyathPercentile").item(0).getTextContent()) != null)
-//                                    percentile.setNinetyathPercentile(Double.valueOf(newdashboard.getElementsByTagName("NinetyathPercentile").item(0).getTextContent()));
-//                            }
-//                            if(xmlType.equals("BMI_0_to_18_Years_BMI.xml")){
-//                                if(Double.valueOf(newdashboard.getElementsByTagName("NinetyFifthPercentile").item(0).getTextContent()) != null)
-//                                    percentile.setNinetyFifthPercentile(Double.valueOf(newdashboard.getElementsByTagName("NinetyFifthPercentile").item(0).getTextContent()));
-//
-//                            }
-//                            if(!xmlType.equals("BMI_0_to_18_Years_BMI.xml") ){
-//                                if(Double.valueOf(newdashboard.getElementsByTagName("NinetySeventhPercentile").item(0).getTextContent()) != null)
-//                                    percentile.setNinetySeventhPercentile(Double.valueOf(newdashboard.getElementsByTagName("NinetySeventhPercentile").item(0).getTextContent()));
-//                            }
+                            if(!xmlType.equals("BMI_0_to_18_Years_BMI.xml") ){
+                                if(Double.valueOf(newdashboard.getElementsByTagName("NinetyathPercentile").item(0).getTextContent()) != null)
+                                    percentile.setNinetyathPercentile(Double.valueOf(newdashboard.getElementsByTagName("NinetyathPercentile").item(0).getTextContent()));
+                            }
+                            if(xmlType.equals("BMI_0_to_18_Years_BMI.xml")){
+                                if(Double.valueOf(newdashboard.getElementsByTagName("NinetyFifthPercentile").item(0).getTextContent()) != null)
+                                    percentile.setNinetyFifthPercentile(Double.valueOf(newdashboard.getElementsByTagName("NinetyFifthPercentile").item(0).getTextContent()));
 
-//                    if(Double.valueOf(dashValue ) != null)
-//                        percentile.setThirdPercentile(Double.valueOf(dashValue ));
-//
-//                    if(age >= 5.0 && xmlType.equals("BMI_0_to_18_Years_BMI.xml") && gender.equals("WHOGirls")){
-//                        if(Double.valueOf(dashValue ) != null)
-//                            percentile.setFifthPercentile(Double.valueOf(dashValue));
-//                    }
-//                    if(xmlType.equals("BMI_0_to_18_Years_BMI.xml") && gender.equals("WHOBoys")){
-//                        if(Double.valueOf(dashValue) != null)
-//                            percentile.setFifthPercentile(Double.valueOf(dashValue));
-//                    }
-//
-//                    if(Double.valueOf(dashValue) != null)
-//                        percentile.setTenthPercentile(Double.valueOf(dashValue));
+                            }
+                            if(!xmlType.equals("BMI_0_to_18_Years_BMI.xml") ){
+                                if(Double.valueOf(newdashboard.getElementsByTagName("NinetySeventhPercentile").item(0).getTextContent()) != null)
+                                    percentile.setNinetySeventhPercentile(Double.valueOf(newdashboard.getElementsByTagName("NinetySeventhPercentile").item(0).getTextContent()));
+                            }
+
+                    if(Double.valueOf(dashValue ) != null)
+                        percentile.setThirdPercentile(Double.valueOf(dashValue ));
+
+                    if(age >= 5.0 && xmlType.equals("BMI_0_to_18_Years_BMI.xml") && gender.equals("WHOGirls")){
+                        if(Double.valueOf(dashValue ) != null)
+                            percentile.setFifthPercentile(Double.valueOf(dashValue));
+                    }
+                    if(xmlType.equals("BMI_0_to_18_Years_BMI.xml") && gender.equals("WHOBoys")){
+                        if(Double.valueOf(dashValue) != null)
+                            percentile.setFifthPercentile(Double.valueOf(dashValue));
+                    }
+
+                    if(Double.valueOf(dashValue) != null)
+                        percentile.setTenthPercentile(Double.valueOf(dashValue));
                             return percentile;
 
 
