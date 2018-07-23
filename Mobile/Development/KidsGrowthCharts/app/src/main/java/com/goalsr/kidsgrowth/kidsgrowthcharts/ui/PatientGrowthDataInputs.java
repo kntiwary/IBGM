@@ -134,6 +134,38 @@ public class PatientGrowthDataInputs extends CHMActivity implements View.OnClick
                 Toast.makeText(PatientGrowthDataInputs.this,
                         "Selected date: " + LazyDatePicker.dateToString(dateSelected, DATE_FORMAT),
                         Toast.LENGTH_SHORT).show();
+
+
+                EditText pAgeOnCurrentDate = (EditText) findViewById(R.id.pvisitage);
+                Date birthDate3 = DateUtils.stringToDate("dd/MM/yyyy", SharedValues.getSelectedPatientDOB());
+//                visitDate = dateFormatter.parse(selectedDate);
+                Age age2 = AgeCalculator.calculateAge(birthDate3, selectedDate);
+                // Age age = AgeCalculator.anotherAgeCalculation(birthDate) ;
+                float years = age2.getYears();
+                float month = age2.getMonths();
+                float ageInM = (years * 12) + month;
+                float modMonth = ageInM % 12;
+                if (years < 0) {
+                    // System.out.println("years: negative " + years);
+                    pAgeOnCurrentDate.setText("");
+                    pAgeOnCurrentDate.setEnabled(false);
+                    pAgeOnCurrentDate.setTextColor(Color.DKGRAY);
+                    alertForVisitDate();
+                } else {
+                    //System.out.println("years: " + years);
+                    pAgeOnCurrentDate.setText(String.valueOf(Math.round(years)) + "." + Math.round(modMonth));
+                    //SharedValues.setPatientAge(Math.round(years));
+                    //int midage = Math.round(years+modMonth);
+                    // Toast.makeText(PatientGrowthDataInputs.this, "Visited Age"+midage, Toast.LENGTH_SHORT).show();
+                    final float ageInMonths = (years * 12) + modMonth;
+                    final float ageinYears = ageInMonths / 12;
+
+
+                    //Toast.makeText(PatientGrowthDataInputs.this, "Age in Months"+ageInMonths+"Age in Years"+ageinYears+"floaredValue"+floaredValue+"cieledValue"+cieledValue, Toast.LENGTH_SHORT).show();
+                    SharedValues.setTempPatientAge(roundToHalf(ageinYears));
+                    pAgeOnCurrentDate.setEnabled(false);
+                    pAgeOnCurrentDate.setTextColor(Color.DKGRAY);
+                }
 //                getAge(selectedDate);
 
 
